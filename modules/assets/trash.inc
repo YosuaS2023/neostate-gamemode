@@ -17,11 +17,12 @@ task Trash[1000]()
 {
     foreach(new i : Trash)
     {
-        if(!IsValidDynamicObject(TrashData[i][TRASH_OBJECT]))
+        if(TrashData[i][TRASH_CLEAN])
         {
             TrashData[i][TRASH_COOLDOWN]++;
             if(TrashData[i][TRASH_COOLDOWN] >= Data_GetInt(sprintf("cooldown-trash-%s", TrashData[i][TRASH_TYPE])))
             {
+                TrashData[i][TRASH_CLEAN] = false;
                 TrashData[i][TRASH_COOLDOWN] = 0;
                 Trash_Sync(i);
             }
@@ -41,6 +42,7 @@ Trash_Near(playerid, Float:radius = 0.0)
     }
     return -1;
 }
+
 Function:Trash_Load()
 {
     new Cache:cache = mysql_query(sqlcon, "SELECT * FROM " SQL_TABLE_TRASH);
@@ -56,11 +58,12 @@ Function:Trash_Load()
             TrashData[i][TRASH_POS][0] = cache_get_field_float(i, "PosX");
             TrashData[i][TRASH_POS][1] = cache_get_field_float(i, "PosY");
             TrashData[i][TRASH_POS][2] = cache_get_field_float(i, "PosZ");
+
             TrashData[i][TRASH_ROT][0] = cache_get_field_float(i, "RotX");
             TrashData[i][TRASH_ROT][1] = cache_get_field_float(i, "RotY");
             TrashData[i][TRASH_ROT][2] = cache_get_field_float(i, "RotZ");
 
-
+            TrashData[i][TRASH_CLEAN] = false;
             Iter_Add(Trash, i);
             Trash_Sync(i);
         }
@@ -85,6 +88,8 @@ Function:Trash_Create(playerid, const type[])
         mysql_format(sqlcon, string, sizeof string, "INSERT INTO "SQL_TABLE_TRASH" SET `Type` ='%s'", type);
         mysql_tquery(sqlcon, string, "OnInsertTrash", "i", id);
         Trash_Sync(id);
+        PlayerData[playerid][pEditingMode] = EDIT_OBJECT_TRASH;
+        PlayerData[playerid][pEditTrash] = id;
         EditDynamicObject(playerid, TrashData[id][TRASH_OBJECT]);
         return id;
     }
@@ -116,10 +121,14 @@ Function:Trash_Sync(trashid)
 {
 	if(Iter_Contains(Trash, trashid))
 	{
-		if(IsValidDynamicActor(TrashData[trashid][TRASH_OBJECT]))
+		if(IsValidDynamicObject(TrashData[trashid][TRASH_OBJECT]))
 		{
 			Streamer_SetPosition(STREAMER_TYPE_OBJECT, TrashData[trashid][TRASH_OBJECT], Array3X(TrashData[trashid][TRASH_POS]));
 			Streamer_SetRotation(STREAMER_TYPE_OBJECT, TrashData[trashid][TRASH_OBJECT], Array3X(TrashData[trashid][TRASH_ROT]));
+		}
+		else if(!TrashData[trashid][TRASH_CLEAN])
+		{
+            TrashData[trashid][TRASH_OBJECT] = CreateDynamicObject(TrashData[trashid][TRASH_OBJECTID],  Array3X(TrashData[trashid][TRASH_POS]), Array3X(TrashData[trashid][TRASH_ROT]));
 		}
 		else 
 		{
@@ -137,10 +146,14 @@ Function:Trash_Clear(trashid)
         D:3("Trash_Clear(trashid = %i) tidak bisa dijalankan karna cooldown-trash-%s tidak ada atau tidak memiliki nilai", trashid, TrashData[trashid][TRASH_TYPE]);
         return 0;
     }
-    if(IsValidDynamicObject(TrashData[trashid][TRASH_OBJECT]))
+    if(IsValidDynamicObject(TrashData[trashid][TRASH_OBJECT])) {
         DestroyDynamicObject(TrashData[trashid][TRASH_OBJECT]);
+        TrashData[trashid][TRASH_OBJECT] = INVALID_STREAMER_ID;
+        TrashData[trashid][TRASH_CLEAN] = true;
+        return 1;
+    }
     
-    return 1;
+    return 0;
 }
 
 CMD:trashmenu(playerid, params[])

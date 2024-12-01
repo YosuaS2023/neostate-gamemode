@@ -17,6 +17,14 @@ function Vehicle_Count(playerid)
 	return count;
 }
 
+function Vehicle_Type(vehicleid, const type[])
+{
+	if(!IsValidVehicle(vehicleid)) return 0;
+	if(isnull(VehCore[vehicleid][vehType])) return 0;
+	if(!strcmp(VehCore[vehicleid][vehType], type)) return 1;
+	return 0;
+}
+
 function VehicleRental_Count(playerid)
 {
 	new count = 0;

@@ -68,7 +68,7 @@ ClearPlayerWages(playerid) {
     Callback
 */
 function OnSalaryAdded(playerid) {
-    return SendServerMessage(playerid, "Your salary has been added, please check at your nearest ATM.");
+    return SendCustomMessage(playerid, "SALARY", "Your salary has been added, please check at your nearest ATM.");
 
 }
 

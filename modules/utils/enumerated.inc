@@ -10,6 +10,13 @@ enum _:ADMIN_RANK
 	DEVELOPER
 }
 
+enum _:E_SIDEJOB
+{
+	SIDEJOB_NONE = 0,
+	SIDEJOB_SWEEPER,
+	SIDEJOB_MOWER
+}
+
 enum E_ECONOMY_ACTION
 {
 	ECONOMY_ACTION_NONE = 0,
@@ -74,7 +81,7 @@ enum vCore
 {
 	vehFuel, // bensin kendaraan
 	vehPlanting, // mode tanam kendaraan untuk id 531
-	vehType, // tipe kendaraan
+	vehType[50], // tipe kendaraan
 };
 new VehCore[MAX_VEHICLES][vCore];
 	
@@ -208,15 +215,38 @@ enum e_player_data
 	/*
 		Not saved
 	*/
+	pLastVehicle, // menampng id vehicle terakhir dinaiki
 	pCalling, // menampung id player yg  kita telpon
 	pTarget, // menampung id player yang di targetkan
-	pFreeze,
-	pFreezeTimer,
-	pOnline,
-	pGasPump,
-	pGasStation,
-	pRefill,
-	pRefillPrice
+	pFreeze, // status freeze
+	pFreezeTimer, // status freeze timer id
+	pOnline, // online timer
+	pGasPump, // gas id
+	pGasStation, // bisnis gas id
+	pRefill, // kendaraan yang di isi ulang
+	pRefillPrice, // harga isi bensin
+
+	/*
+		sidejob
+	*/
+	pSidejob, // core 
+	pSidejobTime,
+	MowerVehicle,
+	SweeperVehicle,
+	/*
+		sweeper
+	*/
+	SweeperUpdate,
+	SweeperTrash,
+	SweeperDistance,
+	Float:SweeperLastPos[3],
+	PlayerText:SweeperText,
+	/*
+		mower
+	*/
+	MowerUpdate,
+	MowerGrass,
+	PlayerText:MowerText
 };
 
 new PlayerData[MAX_PLAYERS][e_player_data];
@@ -276,7 +306,8 @@ enum E_TRASH
     Float:TRASH_POS[3],
     Float:TRASH_ROT[3],
     STREAMER_TAG_OBJECT:TRASH_OBJECT,
-    STREAMER_TAG_3D_TEXT_LABEL:TRASH_3DTEXT
+    STREAMER_TAG_3D_TEXT_LABEL:TRASH_3DTEXT,
+	bool:TRASH_CLEAN
 }
 
 new TrashData[MAX_TRASH][E_TRASH];

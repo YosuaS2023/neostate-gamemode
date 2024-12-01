@@ -4,35 +4,43 @@
 */
 #define     UPDATE_TIME         (500)   // in milliseconds
 
-new
-	bool: SweeperJob[MAX_PLAYERS] = {false, ...},
-	SweeperUpdate[MAX_PLAYERS] = {0, ...},
-	SweeperDistance[MAX_PLAYERS] = {0, ...},
-	SweeperTrash[MAX_PLAYERS],
-	Float: SweeperLastPos[MAX_PLAYERS][3],
-	PlayerText: SweeperText[MAX_PLAYERS];
-
 stock ResetSweeperInfo(playerid, bool: removeTD = false)
 {
-    SweeperJob[playerid] = false;
-    SweeperUpdate[playerid] = 0;
-	SweeperTrash[playerid] = 0;
-	SweeperDistance[playerid] = 0;
-	if(removeTD) PlayerTextDrawDestroy(playerid, SweeperText[playerid]);
+    PlayerData[playerid][SweeperUpdate] = 0;
+	PlayerData[playerid][SweeperTrash] = 0;
+	PlayerData[playerid][SweeperDistance] = 0;
+	PlayerData[playerid][SweeperLastPos][0] = 0.0;
+	PlayerData[playerid][SweeperVehicle] = INVALID_VEHICLE_ID;
+	PlayerData[playerid][pSidejob] = SIDEJOB_NONE;
+	PlayerData[playerid][pSidejobTime] = -1;
+	if(removeTD) PlayerTextDrawDestroy(playerid, PlayerData[playerid][SweeperText]);
 	return 1;
+}
+
+Function:Sweeper_TextDraw(playerid)
+{
+	PlayerData[playerid][SweeperText] = CreatePlayerTextDraw(playerid, 40.000000, 305.000000, "~b~~h~Sweeper Job~n~~n~~w~Cleaned: ~y~0 Meters");
+    PlayerTextDrawBackgroundColor(playerid, PlayerData[playerid][SweeperText], 255);
+	PlayerTextDrawFont(playerid, PlayerData[playerid][SweeperText], 1);
+	PlayerTextDrawLetterSize(playerid, PlayerData[playerid][SweeperText], 0.240000, 1.100000);
+	PlayerTextDrawColor(playerid, PlayerData[playerid][SweeperText], -1);
+	PlayerTextDrawSetOutline(playerid, PlayerData[playerid][SweeperText], 1);
+	PlayerTextDrawSetProportional(playerid, PlayerData[playerid][SweeperText], 1);
+	PlayerTextDrawSetSelectable(playerid, PlayerData[playerid][SweeperText], 0);
+	PlayerTextDrawShow(playerid, PlayerData[playerid][SweeperText]);
 }
 
 Function: Sweeper_ClearTrash(playerid)
 {
-	new trashid = Trash_Near(playerid, 1.0);
+	new trashid = Trash_Near(playerid, 2.5);
 	if(trashid != -1)
 	{
 		if(!strcmp(TrashData[trashid][TRASH_TYPE], "sweeper"))
 		{
 			if(Trash_Clear(trashid))
 			{
-				SweeperTrash[playerid]++;
-				SendCustomMesaage(playerid, "SWEEPER", "You clean the trash by vehicle. (total trash: %i)", SweeperTrash[playerid]);
+				PlayerData[playerid][SweeperTrash]++;
+				SendCustomMessage(playerid, "SWEEPER", "You clean the trash by vehicle. (total trash: %i)", PlayerData[playerid][SweeperTrash]);
 			}
 		}
 	}
@@ -44,7 +52,7 @@ OGME:SweeperExit()
 	foreach(new i : Player)
 	{
 	    if(!IsPlayerConnected(i)) continue;
-	    if(SweeperJob[i]) ResetSweeperInfo(i, true);
+	    if(PlayerData[i][pSidejob] == SIDEJOB_SWEEPER) ResetSweeperInfo(i, true);
 	}
 	
 	return 1;
@@ -59,57 +67,19 @@ hook OnPlayerDisconnect(playerid, reason)
 hook OnPlayerUpdate(playerid)
 {
     new vehicleid = GetPlayerVehicleID(playerid);
-	if(SweeperJob[playerid] && VehCore[vehicleid][vehType] == VEHICLE_TYPE_SWEEPER && SweeperUpdate[playerid] < tickcount())
+	if(PlayerData[playerid][pSidejob] == SIDEJOB_SWEEPER && Vehicle_Type(vehicleid, "sweeper") && PlayerData[playerid][SweeperUpdate] < tickcount())
 	{
-		SweeperUpdate[playerid] = tickcount()+Data_GetInt("sweeper-update-time");
-		SweeperDistance[playerid] += floatround(GetPlayerDistanceFromPoint(playerid, SweeperLastPos[playerid][0], SweeperLastPos[playerid][1], SweeperLastPos[playerid][2]));
-		GetPlayerPos(playerid, SweeperLastPos[playerid][0], SweeperLastPos[playerid][1], SweeperLastPos[playerid][2]);
+		if(PlayerData[playerid][SweeperLastPos][0] == 0.0) GetPlayerPos(playerid, PlayerData[playerid][SweeperLastPos][0], PlayerData[playerid][SweeperLastPos][1], PlayerData[playerid][SweeperLastPos][2]);
+		
+		PlayerData[playerid][pSidejobTime] = 60;
+		PlayerData[playerid][SweeperUpdate] = tickcount()+Data_GetInt("sweeper-update-time");
+		PlayerData[playerid][SweeperDistance] += floatround(GetPlayerDistanceFromPoint(playerid, PlayerData[playerid][SweeperLastPos][0], PlayerData[playerid][SweeperLastPos][1], PlayerData[playerid][SweeperLastPos][2]));
+		GetPlayerPos(playerid, PlayerData[playerid][SweeperLastPos][0], PlayerData[playerid][SweeperLastPos][1], PlayerData[playerid][SweeperLastPos][2]);
 		
 		Sweeper_ClearTrash(playerid);
-		new string[64];
-		format(string, sizeof(string), "~b~~h~Sweeper Job~n~~n~~w~Cleaned: ~y~%d Meters~n~~w~Trash: ~y~%d", SweeperDistance[playerid], SweeperTrash[playerid]);
-		PlayerTextDrawSetString(playerid, SweeperText[playerid], string);
+		new string[120];
+		format(string, sizeof(string), "~b~~h~Sweeper Job~n~~n~~w~Cleaned: ~y~%d Meters~n~~w~Trash: ~y~%d", PlayerData[playerid][SweeperDistance], PlayerData[playerid][SweeperTrash]);
+		PlayerTextDrawSetString(playerid, PlayerData[playerid][SweeperText], string);
 	}
-	return 1;
-}
-
-hook OnPlayerStateChange(playerid, newstate, oldstate)
-{
-    new vid = GetPlayerVehicleID(playerid);
-	if(newstate == PLAYER_STATE_DRIVER && VehCore[vid][vehType] == VEHICLE_TYPE_SWEEPER)
-    {
-        static dialog_confirm[dialog_data];
-        await_arr(dialog_confirm) ShowPlayerAsyncDialog(playerid, DIALOG_STYLE_MSGBOX, "Start sweeper job", "Do you want to start sweeper job?\nClick 'Yes' if you want to start and Click 'No' if you don't want to start.", "Yes", "No");
-	    
-        if(dialog_confirm[Response])
-        {
-            SweeperText[playerid] = CreatePlayerTextDraw(playerid, 40.000000, 305.000000, "~b~~h~Sweeper Job~n~~n~~w~Cleaned: ~y~0 Meters");
-            PlayerTextDrawBackgroundColor(playerid, SweeperText[playerid], 255);
-            PlayerTextDrawFont(playerid, SweeperText[playerid], 1);
-            PlayerTextDrawLetterSize(playerid, SweeperText[playerid], 0.240000, 1.100000);
-            PlayerTextDrawColor(playerid, SweeperText[playerid], -1);
-            PlayerTextDrawSetOutline(playerid, SweeperText[playerid], 1);
-            PlayerTextDrawSetProportional(playerid, SweeperText[playerid], 1);
-            PlayerTextDrawSetSelectable(playerid, SweeperText[playerid], 0);
-            PlayerTextDrawShow(playerid, SweeperText[playerid]);
-            
-            SweeperDistance[playerid] = 0;
-			SweeperTrash[playerid] = 0;
-            GetPlayerPos(playerid, SweeperLastPos[playerid][0], SweeperLastPos[playerid][1], SweeperLastPos[playerid][2]);
-            SweeperJob[playerid] = true;
-            SendCustomMessage(playerid, "SWEEPER", "Drive around and clean the streets!");
-            SendCustomMessage(playerid, "SWEEPER", "You will get your money when you leave your Sweeper.");
-        } else SendServerMessage(playerid, "You cancel to start job sweeper.");
-    }
-	if(oldstate == PLAYER_STATE_DRIVER && SweeperJob[playerid])
-	{
-	    new salary_dist = floatround(SweeperDistance[playerid] * Data_GetFloat("sweeper-salary-per-dist")), salary_trash = floatround(SweeperTrash[playerid] * Data_GetFloat("sweeper-salary-per-trash")), string[80];
-		new salary_total = salary_dist + salary_trash;
-	    format(string, sizeof(string), "~n~~n~~w~Distance Cleaned: ~b~~h~~h~%d Meters~n~~w~Earned ~g~~h~~h~$%d", SweeperDistance[playerid], money);
-	    GameTextForPlayer(playerid, string, 3000, 3);
-	    AddPlayerSalary(playerid, salary_total);
-	    ResetSweeperInfo(playerid, true);
-	}
-	
-	return ALS_CONTINUE;
+	return 0;
 }

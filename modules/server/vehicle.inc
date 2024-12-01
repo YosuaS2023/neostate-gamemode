@@ -11,7 +11,7 @@ enum e_server_veh
     vehVirtualWorld,
     vehLock,
     vehFuel,
-    vehType,
+    vehType[50],
     vehSave,
 };
 
@@ -49,6 +49,7 @@ VS:LoadVehicleServer()
         {
             for(new i = 0; i < cache_num_rows(); i++)
             {
+                cache_get_value_name(i, "vehType", VehServer[i][vehType]);
                 SetVehicleServerData(i, vehSQLID,                   cache_get_field_content_int(i, "vehSQLID"));
                 SetVehicleServerData(i, vehModel,                   cache_get_field_content_int(i, "vehModel"));
 
@@ -61,7 +62,7 @@ VS:LoadVehicleServer()
                 SetVehicleServerData(i, vehLock,                    cache_get_field_content_int(i, "vehLock"));
                 cache_get_value_name_float(i, "vehHealth", VehServer[i][vehHealth]);
                 SetVehicleServerData(i, vehFuel,                    cache_get_field_content_int(i, "vehFuel"));
-                SetVehicleServerData(i, vehType,                    cache_get_field_content_int(i, "vehType"));
+                
                 
                 cache_get_value_name_float(i, "vehPosX", VehServer[i][vehPos][0]);
                 cache_get_value_name_float(i, "vehPosY", VehServer[i][vehPos][1]);
@@ -100,8 +101,9 @@ VS_Respawn(vehicleid)
 
 		if(VehServer[vehicleid][vehLock] == 1) SwitchVehicleDoors(VehServer[vehicleid][vehID], true);
 		else SwitchVehicleDoors(VehServer[vehicleid][vehID], false);
+        
         VehCore[VehServer[vehicleid][vehID]][vehFuel] = 100;
-        VehCore[VehServer[vehicleid][vehID]][vehType] = VehServer[vehicleid][vehType];
+        strcat(VehCore[VehServer[vehicleid][vehID]][vehType], VehServer[vehicleid][vehType]);
 	}
 	return 1;
 }
@@ -118,11 +120,10 @@ CMD:vsmenu(playerid, params[])
     if(sscanf(params, "s[24]S()[128]", type, string)) return SendSyntaxMessage(playerid, "/vsmenu [create/delete/save/list]");
     if(!strcmp(type, "create", true))
     {
-        new model[32], typeid, color1, color2;
+        new model[32], typeid[50], color1, color2;
 
-        if(sscanf(string, "s[32]ddd", model, typeid, color1, color2)) {
-            SendSyntaxMessage(playerid, "/vehicle create [model/vehicle name] [typeid] [color1] [color2]");
-            SendServerMessage(playerid, "1. Job sweeper, 2. Bus");
+        if(sscanf(string, "p<,>s[32]s[50]dd", model, typeid, color1, color2)) {
+            SendSyntaxMessage(playerid, "/vehicle create [model/vehicle name] [string:type] [color1] [color2]");
             return 1;
         }
         if((model[0] = GetVehicleModelByName(model)) == 0) return SendErrorMessage(playerid, "Invalid vehicle name/id");
@@ -131,10 +132,9 @@ CMD:vsmenu(playerid, params[])
 	    if(Vehicleid == -1) return 1;
         if(color1 < 0 || color1 > 255 || color2 < 0 || color2 > 255) { SendErrorMessage(playerid, "Color Number can't be below 0 or above 255 !"); return 1; }
         if(model[0] < 400 || model[0] > 611) { SendErrorMessage(playerid, "Vehicle Number can't be below 400 or above 611 !"); return 1; }
-        if(typeid < 0 || typeid > 2) return SendErrorMessage(playerid, "can't be below 0 or above 1""");
         Iter_Add(DynamicVS, Vehicleid);
-        mysql_format(sqlcon, cQuery, sizeof(cQuery), "INSERT INTO vehicle_server SET `vehType` = %i, `vehModel` = %i, `vehColor` = %i, `vehColor1` = %i, `vehPosX` = %f, `vehPosY` = %f, `vehPosZ` = %f, `vehAngle` = %f", typeid, model[0], color1, color2, x, y, z, a);
-        mysql_tquery(sqlcon, cQuery, "VS_Create", "ddddddffff", playerid, Vehicleid, typeid, model[0], color1, color2, x, y, z, a);
+        mysql_format(sqlcon, cQuery, sizeof(cQuery), "INSERT INTO vehicle_server SET `vehType` = '%s', `vehModel` = %i, `vehColor` = %i, `vehColor1` = %i, `vehPosX` = %f, `vehPosY` = %f, `vehPosZ` = %f, `vehAngle` = %f", typeid, model[0], color1, color2, x, y, z, a);
+        mysql_tquery(sqlcon, cQuery, "VS_Create", "ddsdddffff", playerid, Vehicleid, typeid, model[0], color1, color2, x, y, z, a);
     }
     else if(!strcmp(type, "delete", true))
     {
@@ -218,7 +218,7 @@ VS_SaveData(vehicleid)
     if(VehServer[vehicleid][vehLock] == 1) mysql_format(sqlcon, cQuery, sizeof(cQuery), "%s, `vehLock`=1", cQuery);
     else mysql_format(sqlcon, cQuery, sizeof(cQuery), "%s, `vehLock`=0", cQuery);
     mysql_format(sqlcon, cQuery, sizeof(cQuery), "%s, `vehFuel`=%i", cQuery, VehServer[vehicleid][vehFuel]);
-    mysql_format(sqlcon, cQuery, sizeof(cQuery), "%s, `vehType`=%i", cQuery, VehServer[vehicleid][vehType]);
+    mysql_format(sqlcon, cQuery, sizeof(cQuery), "%s, `vehType`='%s'", cQuery, VehServer[vehicleid][vehType]);
     mysql_format(sqlcon, cQuery, sizeof(cQuery), "%s WHERE `vehSQLID` = %d", cQuery, VehServer[vehicleid][vehSQLID]);
     mysql_tquery(sqlcon, cQuery);
     
@@ -240,11 +240,11 @@ VS_SaveData(vehicleid)
 	return 1;
 }
 
-function VS_Create(playerid, vehicleid, slot, model, color1, color2, Float:x, Float:y, Float:z, Float:a)
+function VS_Create(playerid, vehicleid, const type[], model, color1, color2, Float:x, Float:y, Float:z, Float:a)
 {
 	VehServer[vehicleid][vehSQLID] = cache_insert_id();
     VehServer[vehicleid][vehModel] = model;
-    VehServer[vehicleid][vehType] = slot;
+    strcat(VehServer[vehicleid][vehType], type);
 	VehServer[vehicleid][vehColor][0] = color1;
 	VehServer[vehicleid][vehColor][1] = color2;
     VehServer[vehicleid][vehPos][0] = x;

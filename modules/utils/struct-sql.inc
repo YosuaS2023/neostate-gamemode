@@ -20,6 +20,13 @@ new const struct_character[][STRUCT_CHARACTER] =
 	{"InBiz", "Enter Business ID", pInBiz, -1, SQL_INT},
 	// not saved
 	{"no_sql", "Status Spanwed", pSpawned, false, SQL_INVALID},
+	{"no_sql", "Vehicle Sweeper", SweeperVehicle, INVALID_VEHICLE_ID, SQL_INVALID},
+	{"no_sql", "Vehicle Mower", MowerVehicle, INVALID_VEHICLE_ID, SQL_INVALID},
+	{"no_sql", "Sidejob ID", pSidejob, SIDEJOB_NONE, SQL_INVALID},
+	{"no_sql", "Sidejob Time Exit Vehicle", pSidejobTime, -1, SQL_INVALID},
+	{"no_sql", "Sweeper Distance", SweeperDistance, 0, SQL_INVALID},
+	{"no_sql", "Sweeper Trash", SweeperTrash, 0, SQL_INVALID},
+	{"no_sql", "Sweeper Update", SweeperUpdate, 0, SQL_INVALID},
 	{"no_sql", "Editing Mode", pEditingMode, NOT_EDIT_OBJECT, SQL_INVALID},
 	{"no_sql", "Editing Atm ID", pEditAtmID, -1, SQL_INVALID},
 	{"no_sql", "Editing Pump ID", pEditPump, -1, SQL_INVALID},

@@ -115,8 +115,20 @@ new DebugLevel = 5;
 #include "../modules/assets/actor.inc"
 #include "../modules/assets/trash.inc"
 /* job */
+#include "../modules/job/general.inc"
 #include "../modules/job/farmer.inc"
 #include "../modules/job/sweeper.inc"
-#include "../modules/job/mowler.inc"
+#include "../modules/job/mower.inc"
 /* feature */
 #include "../modules/feature/cityhall.inc"
+
+public OnPlayerExitVehicle(playerid, vehicleid)
+{
+	switch(HashStr(VehCore[vehicleid][vehType]))
+	{
+		case HS<sweeper>: PlayerData[playerid][SweeperVehicle] = vehicleid;
+		case HS<mower>: PlayerData[playerid][MowerVehicle] = vehicleid;
+	}
+	PlayerData[playerid][pLastVehicle] = vehicleid;
+	return 1;
+}
