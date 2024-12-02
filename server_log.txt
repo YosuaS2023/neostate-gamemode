@@ -44384,3 +44384,2381 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [09:27:05] = Unloaded!            =
 [09:27:05] ========================
 [09:27:05]  PawnPlus v1.5 unloaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:34:44] password = ""  (string)
+[00:34:44] 
+[00:34:44] Server Plugins
+[00:34:44] --------------
+[00:34:44]  Loading plugin: crashdetect
+[00:34:44]   CrashDetect plugin 4.19.4
+[00:34:44]   Loaded.
+[00:34:44]  Loading plugin: sscanf
+[00:34:44] 
+
+[00:34:44]  ===============================
+
+[00:34:44]       sscanf plugin loaded.     
+
+[00:34:44]          Version:  2.8.3        
+
+[00:34:44]   (c) 2018 Alex "Y_Less" Cole  
+
+[00:34:44]  ===============================
+
+[00:34:44]   Loaded.
+[00:34:44]  Loading plugin: streamer
+[00:34:44] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:34:44]   Loaded.
+[00:34:44]  Loading plugin: samp_bcrypt
+[00:34:44] [SampBcrypt] [info]: Version: 0.3.2
+[00:34:44]   Loaded.
+[00:34:44]  Loading plugin: mysql
+[00:34:44]  >> plugin.mysql: R41-4 successfully loaded.
+[00:34:44]   Loaded.
+[00:34:44]  Loading plugin: pawn-memory
+[00:34:44] ========================
+[00:34:44] = Memory access plugin =
+[00:34:44] =       Made by BigETI =
+[00:34:44] = Loaded!              =
+[00:34:44] ========================
+[00:34:44]   Loaded.
+[00:34:44]  Loading plugin: samp-compat
+[00:34:44]   -- samp-compat for 0.3.7-R2 initialized
+[00:34:44]   Loaded.
+[00:34:44]  Loading plugin: filemanager
+[00:34:44] ******************
+[00:34:44] ** FILE MANAGER **
+[00:34:44] **    Loaded    **
+[00:34:44] ** Version 1.5 **
+[00:34:45] ******************
+[00:34:45]   Loaded.
+[00:34:45]  Loading plugin: pawnplus
+[00:34:45]  PawnPlus v1.5 loaded
+[00:34:45]  Created by IS4
+[00:34:45]   Loaded.
+[00:34:45]  Loaded 9 plugins.
+
+[00:34:45] 
+[00:34:45] Filterscripts
+[00:34:45] ---------------
+[00:34:45]   Loading filterscript 'Mapping.amx'...
+[00:34:45]   Unable to load filterscript 'Mapping.amx'.
+[00:34:45]   Loaded 0 filterscripts.
+
+[00:34:45] *** [Playef-Timer] Menjalankan timer k@OneSecondTime(task id : 1)
+[00:34:45] *** [Playef-Timer] Menjalankan timer k@RefuelCheck(task id : 2)
+[00:34:45] *** [Playef-Timer] Menjalankan timer k@RentalUpdate(task id : 3)
+[00:34:45] *** [Playef-Timer] Menjalankan timer k@Trash(task id : 4)
+[00:34:45] *** [Playef-Timer] Menjalankan timer k@VehicleUpdate(task id : 5)
+[00:34:45] *** [UtilsScripts] (timer) successfully loaded timer.inc
+[00:34:45] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[00:34:45] [MySQL] - Connection Estabilished!
+[00:34:45] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ActorInit"
+[00:34:45] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Economy"
+[00:34:45] *** [Economy] Loaded 4 rows
+[00:34:45] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_House_Init"
+[00:34:45] 
+==========[House System Loaded]=========
+[00:34:45]  
+
+[00:34:45] ==========================================
+
+[00:34:45] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadAtm"
+[00:34:45] *** [MySQL] Successfully loading Automatic Teller Machine as much as 5 rows 
+[00:34:45] *** [Account Atm] Loaded 1 rows
+[00:34:45] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadFarmerWheat"
+[00:34:45] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Plant"
+[00:34:45] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ServerData"
+[00:34:45] *** [Server Data] sqlid: 11, name: def-modelid-trash-sweeper
+[00:34:45] *** [Server Data] sqlid: 12, name: cooldown-trash-sweeper
+[00:34:45] *** [Server Data] sqlid: 14, name: actor-diff
+[00:34:45] *** [Server Data] sqlid: 15, name: sweeper-update-time
+[00:34:45] *** [Server Data] sqlid: 17, name: def-modelid-trash-mower
+[00:34:45] *** [Server Data] sqlid: 18, name: cooldown-trash-mower
+[00:34:45] *** [Server Data] sqlid: 19, name: mower-salary-fail
+[00:34:45] *** [Server Data] sqlid: 20, name: mower-salary-per-trash
+[00:34:45] *** [Server Data] sqlid: 21, name: mower-update-time
+[00:34:45] *** [Server Data] Loading server data 9 rows.. 
+[00:34:45] [DEBUG] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[00:34:45] [DEBUG] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[00:34:45] [DEBUG] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[00:34:45] [DEBUG] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[00:34:45] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Trash"
+[00:34:45] [DEBUG] *** [Trash] Loaded 5 rows
+[00:34:45] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Vehicle_Server"
+[00:34:45] ***[MySQL] Loaded a 'vehicle_server' database as much as 2
+[00:34:45] [ Reliazed Gamemode Loaded ]
+[00:34:45] Number of vehicle models: 5
+[00:34:45] [DROPITEM] Loaded 1 Dropped items from database.
+[00:34:45] *** [Database: Loaded] dealership data (2 count).
+[00:34:45] *** [Actor] Loaded 3 Actor's
+[00:34:45] [PPHooks] pp_public_min_index forced to 0 to evade SAMPGDK incompatibility
+[00:34:45] *** [House] 0 Houses were loaded.
+[00:35:02] [connection] incoming connection: 111.94.75.73:41666 id: 0
+[00:35:02] [join] Yeonwo has joined the server (0:111.94.75.73)
+[00:35:02] *** [UtilsScripts] (timer) kill and refresh as many player timer 0
+[00:35:02] *** [Playef-Timer] Menjalankan timer k@EnergyUpdate(task id : 12)
+[00:35:02] *** [Playef-Timer] Menjalankan timer k@IsPlayerFarmer(task id : 13)
+[00:35:02] *** [Playef-Timer] Menjalankan timer k@OnlinePerSec(task id : 14)
+[00:35:02] *** [Playef-Timer] Menjalankan timer k@PlayerUpdate(task id : 15)
+[00:35:02] *** [Playef-Timer] Menjalankan timer k@SidejobGeneral(task id : 16)
+[00:35:08] [nick] Yeonwo nick changed to Steven_Yosua
+[00:35:08] [VEHICLE] Loaded 1 player vehicle from: Steven_Yosua(0)
+[00:35:24] [DEBUG] EditDynamicObject(response: 0, objectid: 6)
+[00:35:27] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:35:28] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:35:28] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:35:28] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:35:28] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:35:29] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:35:29] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:35:29] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:35:31] [DEBUG] EditDynamicObject(response: 1, objectid: 6)
+[00:37:24] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:37:25] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:37:25] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:37:25] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:37:25] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:37:26] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:37:26] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:37:26] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:37:26] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:37:27] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:37:27] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:37:29] [DEBUG] EditDynamicObject(response: 1, objectid: 6)
+[00:41:12] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:41:12] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:41:12] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:41:12] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:41:13] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:41:13] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:41:13] [DEBUG] EditDynamicObject(response: 2, objectid: 6)
+[00:41:14] [DEBUG] EditDynamicObject(response: 0, objectid: 6)
+[00:41:19] [DEBUG] EditDynamicObject(response: 0, objectid: 7)
+[00:41:22] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[00:41:22] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[00:41:22] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[00:41:22] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[00:41:23] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[00:41:23] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[00:41:23] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[00:41:23] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[00:41:24] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[00:41:24] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[00:41:26] [DEBUG] EditDynamicObject(response: 1, objectid: 7)
+[00:41:29] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:29] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:29] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:30] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:30] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:30] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:31] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:31] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:31] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:31] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:32] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:32] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:32] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:32] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:33] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:33] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:33] [DEBUG] EditDynamicObject(response: 2, objectid: 8)
+[00:41:35] [DEBUG] EditDynamicObject(response: 1, objectid: 8)
+[00:41:47] *** [UtilsScripts] (timer) kill and refresh as many player timer 5
+[00:41:47] UPDATE `characters` SET `AccountATM` = '0' WHERE `pID` = 13;
+[00:41:47] UPDATE `characters` SET `InHouse` = '-1' WHERE `pID` = 13;
+[00:41:47] UPDATE `characters` SET `InBiz` = '-1' WHERE `pID` = 13;
+[00:41:47] [part] Steven_Yosua has left the server (0:0)
+[00:42:49] [debug] Server received interrupt signal
+[00:42:49] [debug] Native backtrace:
+[00:42:49] [debug] #0 77473f1c in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[00:42:49] [debug] #1 75cd229f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[00:42:49] [debug] #2 75cd222f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[00:42:49] [debug] #3 0048d53c in ?? () in samp-server.exe
+[00:42:49] [debug] #4 0049b531 in ?? () in samp-server.exe
+[00:42:49] [debug] #5 0049b541 in ?? () in samp-server.exe
+[00:42:49] --- Server Shutting Down.
+[00:42:49] [ADM] Info: Unload EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[00:42:49] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ActorExit"
+[00:42:49] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Economy"
+[00:42:49] *** Successfully saving EconomySave
+[00:42:49] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_House_Exit"
+[00:42:49] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Mower"
+[00:42:49] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Plant"
+[00:42:49] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SaveAtm"
+[00:42:49] UPDATE `account_atm` SET `money` = '0' WHERE `SQLID` = 1;
+[00:42:49] UPDATE `account_atm` SET `status` = '0' WHERE `SQLID` = 1;
+[00:42:49] UPDATE `account_atm` SET `username` = 'Zxuan' WHERE `SQLID` = 1;
+[00:42:49] UPDATE `account_atm` SET `password` = 'Pass12' WHERE `SQLID` = 1;
+[00:42:49] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ServerData"
+[00:42:49] [DEBUG] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[00:42:49] [DEBUG] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[00:42:49] [DEBUG] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[00:42:49] [DEBUG] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[00:42:49] [DEBUG] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[00:42:49] [DEBUG] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[00:42:49] [DEBUG] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[00:42:49] [DEBUG] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[00:42:49] [DEBUG] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[00:42:49] [SETTING SERVER] Successfully saving setting server
+[00:42:49] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SweeperExit"
+[00:42:49] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Trash"
+[00:42:49] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Vehicle_Server"
+[00:42:49] *** [Vehicle Server] Save database.
+[00:42:49] 
+
+[00:42:49]  ===============================
+
+[00:42:49]      sscanf plugin unloaded.    
+
+[00:42:49]  ===============================
+
+[00:42:49] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[00:42:49] plugin.mysql: Unloading plugin...
+[00:42:49] plugin.mysql: Plugin unloaded.
+[00:42:49] ========================
+[00:42:49] = Memory access plugin =
+[00:42:49] =       Made by BigETI =
+[00:42:49] = Unloaded!            =
+[00:42:49] ========================
+[00:42:49]  PawnPlus v1.5 unloaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:44:59] password = ""  (string)
+[00:44:59] 
+[00:44:59] Server Plugins
+[00:44:59] --------------
+[00:44:59]  Loading plugin: crashdetect
+[00:44:59]   CrashDetect plugin 4.19.4
+[00:44:59]   Loaded.
+[00:44:59]  Loading plugin: sscanf
+[00:44:59] 
+
+[00:44:59]  ===============================
+
+[00:44:59]       sscanf plugin loaded.     
+
+[00:44:59]          Version:  2.8.3        
+
+[00:44:59]   (c) 2018 Alex "Y_Less" Cole  
+
+[00:44:59]  ===============================
+
+[00:44:59]   Loaded.
+[00:44:59]  Loading plugin: streamer
+[00:44:59] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:44:59]   Loaded.
+[00:44:59]  Loading plugin: samp_bcrypt
+[00:44:59] [SampBcrypt] [info]: Version: 0.3.2
+[00:44:59]   Loaded.
+[00:44:59]  Loading plugin: mysql
+[00:44:59]  >> plugin.mysql: R41-4 successfully loaded.
+[00:44:59]   Loaded.
+[00:44:59]  Loading plugin: pawn-memory
+[00:44:59] ========================
+[00:44:59] = Memory access plugin =
+[00:44:59] =       Made by BigETI =
+[00:44:59] = Loaded!              =
+[00:44:59] ========================
+[00:44:59]   Loaded.
+[00:44:59]  Loading plugin: samp-compat
+[00:44:59]   -- samp-compat for 0.3.7-R2 initialized
+[00:44:59]   Loaded.
+[00:44:59]  Loading plugin: filemanager
+[00:44:59] ******************
+[00:44:59] ** FILE MANAGER **
+[00:44:59] **    Loaded    **
+[00:44:59] ** Version 1.5 **
+[00:44:59] ******************
+[00:44:59]   Loaded.
+[00:44:59]  Loading plugin: pawnplus
+[00:44:59]  PawnPlus v1.5 loaded
+[00:44:59]  Created by IS4
+[00:44:59]   Loaded.
+[00:44:59]  Loaded 9 plugins.
+
+[00:44:59] 
+[00:44:59] Filterscripts
+[00:44:59] ---------------
+[00:44:59]   Loading filterscript 'Mapping.amx'...
+[00:44:59]   Unable to load filterscript 'Mapping.amx'.
+[00:44:59]   Loaded 0 filterscripts.
+
+[00:44:59] *** [Playef-Timer] Menjalankan timer k@OneSecondTime(task id : 1)
+[00:44:59] *** [Playef-Timer] Menjalankan timer k@RefuelCheck(task id : 2)
+[00:44:59] *** [Playef-Timer] Menjalankan timer k@RentalUpdate(task id : 3)
+[00:44:59] *** [Playef-Timer] Menjalankan timer k@Trash(task id : 4)
+[00:44:59] *** [Playef-Timer] Menjalankan timer k@VehicleUpdate(task id : 5)
+[00:44:59] *** [UtilsScripts] (timer) successfully loaded timer.inc
+[00:44:59] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[00:44:59] [MySQL] - Connection Estabilished!
+[00:44:59] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ActorInit"
+[00:44:59] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Economy"
+[00:44:59] *** [Economy] Loaded 4 rows
+[00:44:59] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_House_Init"
+[00:44:59] 
+==========[House System Loaded]=========
+[00:44:59]  
+
+[00:44:59] ==========================================
+
+[00:44:59] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadAtm"
+[00:44:59] *** [MySQL] Successfully loading Automatic Teller Machine as much as 5 rows 
+[00:44:59] *** [Account Atm] Loaded 1 rows
+[00:44:59] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadFarmerWheat"
+[00:44:59] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Plant"
+[00:44:59] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ServerData"
+[00:44:59] *** [Server Data] sqlid: 11, name: def-modelid-trash-sweeper
+[00:44:59] *** [Server Data] sqlid: 12, name: cooldown-trash-sweeper
+[00:44:59] *** [Server Data] sqlid: 14, name: actor-diff
+[00:44:59] *** [Server Data] sqlid: 15, name: sweeper-update-time
+[00:44:59] *** [Server Data] sqlid: 17, name: def-modelid-trash-mower
+[00:44:59] *** [Server Data] sqlid: 18, name: cooldown-trash-mower
+[00:44:59] *** [Server Data] sqlid: 19, name: mower-salary-fail
+[00:44:59] *** [Server Data] sqlid: 20, name: mower-salary-per-trash
+[00:44:59] *** [Server Data] sqlid: 21, name: mower-update-time
+[00:44:59] *** [Server Data] Loading server data 9 rows.. 
+[00:44:59] [DEBUG] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[00:44:59] [DEBUG] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[00:44:59] [DEBUG] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[00:44:59] [DEBUG] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[00:44:59] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Trash"
+[00:44:59] [DEBUG] *** [Trash] Loaded 5 rows
+[00:44:59] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Vehicle_Server"
+[00:44:59] ***[MySQL] Loaded a 'vehicle_server' database as much as 2
+[00:44:59] [ Reliazed Gamemode Loaded ]
+[00:44:59] Number of vehicle models: 5
+[00:44:59] [DROPITEM] Loaded 1 Dropped items from database.
+[00:44:59] *** [Database: Loaded] dealership data (2 count).
+[00:44:59] *** [Actor] Loaded 3 Actor's
+[00:44:59] *** [House] 0 Houses were loaded.
+[00:44:59] [PPHooks] pp_public_min_index forced to 0 to evade SAMPGDK incompatibility
+[00:45:14] [connection] incoming connection: 111.94.75.73:46695 id: 0
+[00:45:14] [join] Yeonwo has joined the server (0:111.94.75.73)
+[00:45:14] *** [UtilsScripts] (timer) kill and refresh as many player timer 0
+[00:45:14] *** [Playef-Timer] Menjalankan timer k@EnergyUpdate(task id : 12)
+[00:45:14] *** [Playef-Timer] Menjalankan timer k@IsPlayerFarmer(task id : 13)
+[00:45:14] *** [Playef-Timer] Menjalankan timer k@OnlinePerSec(task id : 14)
+[00:45:14] *** [Playef-Timer] Menjalankan timer k@PlayerUpdate(task id : 15)
+[00:45:14] *** [Playef-Timer] Menjalankan timer k@SidejobGeneral(task id : 16)
+[00:45:22] [nick] Yeonwo nick changed to Steven_Yosua
+[00:45:22] [VEHICLE] Loaded 1 player vehicle from: Steven_Yosua(0)
+[00:45:37] [DEBUG] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[00:45:42] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[00:45:43] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[00:45:44] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[00:45:46] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[00:45:46] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[00:45:47] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[00:45:48] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[00:45:48] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[00:45:51] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[00:45:52] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[00:45:52] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[00:45:55] [DEBUG] EditDynamicObject(response: 1, objectid: 12)
+[00:46:01] [DEBUG] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[00:46:02] [DEBUG] EditDynamicObject(response: 2, objectid: 13)
+[00:46:02] [DEBUG] EditDynamicObject(response: 2, objectid: 13)
+[00:46:03] [DEBUG] EditDynamicObject(response: 2, objectid: 13)
+[00:46:03] [DEBUG] EditDynamicObject(response: 2, objectid: 13)
+[00:46:03] [DEBUG] EditDynamicObject(response: 2, objectid: 13)
+[00:46:03] [DEBUG] EditDynamicObject(response: 2, objectid: 13)
+[00:46:04] [DEBUG] EditDynamicObject(response: 2, objectid: 13)
+[00:46:04] [DEBUG] EditDynamicObject(response: 2, objectid: 13)
+[00:46:04] [DEBUG] EditDynamicObject(response: 2, objectid: 13)
+[00:46:05] [DEBUG] EditDynamicObject(response: 1, objectid: 13)
+[00:46:10] *** [UtilsScripts] (timer) kill and refresh as many player timer 5
+[00:46:10] UPDATE `characters` SET `AccountATM` = '0' WHERE `pID` = 13;
+[00:46:10] UPDATE `characters` SET `InHouse` = '-1' WHERE `pID` = 13;
+[00:46:10] UPDATE `characters` SET `InBiz` = '-1' WHERE `pID` = 13;
+[00:46:10] [part] Steven_Yosua has left the server (0:1)
+[00:46:16] [debug] Server received interrupt signal
+[00:46:16] [debug] Native backtrace:
+[00:46:16] [debug] #0 77473f1c in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[00:46:16] [debug] #1 75cd229f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[00:46:16] [debug] #2 75cd222f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[00:46:16] [debug] #3 0048d53c in ?? () in samp-server.exe
+[00:46:16] [debug] #4 0049b531 in ?? () in samp-server.exe
+[00:46:16] [debug] #5 0049b541 in ?? () in samp-server.exe
+[00:46:16] --- Server Shutting Down.
+[00:46:16] [ADM] Info: Unload EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[00:46:16] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ActorExit"
+[00:46:16] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Economy"
+[00:46:16] *** Successfully saving EconomySave
+[00:46:16] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_House_Exit"
+[00:46:16] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Mower"
+[00:46:16] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Plant"
+[00:46:16] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SaveAtm"
+[00:46:16] UPDATE `account_atm` SET `money` = '0' WHERE `SQLID` = 1;
+[00:46:16] UPDATE `account_atm` SET `status` = '0' WHERE `SQLID` = 1;
+[00:46:16] UPDATE `account_atm` SET `username` = 'Zxuan' WHERE `SQLID` = 1;
+[00:46:16] UPDATE `account_atm` SET `password` = 'Pass12' WHERE `SQLID` = 1;
+[00:46:16] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ServerData"
+[00:46:16] [DEBUG] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[00:46:16] [DEBUG] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[00:46:16] [DEBUG] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[00:46:16] [DEBUG] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[00:46:16] [DEBUG] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[00:46:16] [DEBUG] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[00:46:16] [DEBUG] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[00:46:16] [DEBUG] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[00:46:16] [DEBUG] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[00:46:16] [SETTING SERVER] Successfully saving setting server
+[00:46:16] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SweeperExit"
+[00:46:16] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Trash"
+[00:46:16] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Vehicle_Server"
+[00:46:16] *** [Vehicle Server] Save database.
+[00:46:16] 
+
+[00:46:16]  ===============================
+
+[00:46:16]      sscanf plugin unloaded.    
+
+[00:46:16]  ===============================
+
+[00:46:16] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[00:46:16] plugin.mysql: Unloading plugin...
+[00:46:16] plugin.mysql: Plugin unloaded.
+[00:46:16] ========================
+[00:46:16] = Memory access plugin =
+[00:46:16] =       Made by BigETI =
+[00:46:16] = Unloaded!            =
+[00:46:16] ========================
+[00:46:16]  PawnPlus v1.5 unloaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:46:21] password = ""  (string)
+[00:46:21] 
+[00:46:21] Server Plugins
+[00:46:21] --------------
+[00:46:21]  Loading plugin: crashdetect
+[00:46:21]   CrashDetect plugin 4.19.4
+[00:46:21]   Loaded.
+[00:46:21]  Loading plugin: sscanf
+[00:46:21] 
+
+[00:46:21]  ===============================
+
+[00:46:21]       sscanf plugin loaded.     
+
+[00:46:21]          Version:  2.8.3        
+
+[00:46:21]   (c) 2018 Alex "Y_Less" Cole  
+
+[00:46:21]  ===============================
+
+[00:46:21]   Loaded.
+[00:46:21]  Loading plugin: streamer
+[00:46:21] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:46:21]   Loaded.
+[00:46:21]  Loading plugin: samp_bcrypt
+[00:46:21] [SampBcrypt] [info]: Version: 0.3.2
+[00:46:21]   Loaded.
+[00:46:21]  Loading plugin: mysql
+[00:46:21]  >> plugin.mysql: R41-4 successfully loaded.
+[00:46:21]   Loaded.
+[00:46:21]  Loading plugin: pawn-memory
+[00:46:21] ========================
+[00:46:21] = Memory access plugin =
+[00:46:21] =       Made by BigETI =
+[00:46:21] = Loaded!              =
+[00:46:21] ========================
+[00:46:21]   Loaded.
+[00:46:21]  Loading plugin: samp-compat
+[00:46:21]   -- samp-compat for 0.3.7-R2 initialized
+[00:46:21]   Loaded.
+[00:46:21]  Loading plugin: filemanager
+[00:46:21] ******************
+[00:46:21] ** FILE MANAGER **
+[00:46:21] **    Loaded    **
+[00:46:21] ** Version 1.5 **
+[00:46:21] ******************
+[00:46:21]   Loaded.
+[00:46:21]  Loading plugin: pawnplus
+[00:46:21]  PawnPlus v1.5 loaded
+[00:46:21]  Created by IS4
+[00:46:21]   Loaded.
+[00:46:21]  Loaded 9 plugins.
+
+[00:46:21] 
+[00:46:21] Filterscripts
+[00:46:21] ---------------
+[00:46:21]   Loading filterscript 'Mapping.amx'...
+[00:46:21]   Unable to load filterscript 'Mapping.amx'.
+[00:46:21]   Loaded 0 filterscripts.
+
+[00:46:21] *** [Playef-Timer] Menjalankan timer k@OneSecondTime(task id : 1)
+[00:46:21] *** [Playef-Timer] Menjalankan timer k@RefuelCheck(task id : 2)
+[00:46:21] *** [Playef-Timer] Menjalankan timer k@RentalUpdate(task id : 3)
+[00:46:21] *** [Playef-Timer] Menjalankan timer k@Trash(task id : 4)
+[00:46:21] *** [Playef-Timer] Menjalankan timer k@VehicleUpdate(task id : 5)
+[00:46:21] *** [UtilsScripts] (timer) successfully loaded timer.inc
+[00:46:21] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[00:46:21] [MySQL] - Connection Estabilished!
+[00:46:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ActorInit"
+[00:46:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Economy"
+[00:46:21] *** [Economy] Loaded 4 rows
+[00:46:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_House_Init"
+[00:46:21] 
+==========[House System Loaded]=========
+[00:46:21]  
+
+[00:46:21] ==========================================
+
+[00:46:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadAtm"
+[00:46:21] *** [MySQL] Successfully loading Automatic Teller Machine as much as 5 rows 
+[00:46:21] *** [Account Atm] Loaded 1 rows
+[00:46:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadFarmerWheat"
+[00:46:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Plant"
+[00:46:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ServerData"
+[00:46:21] *** [Server Data] sqlid: 11, name: def-modelid-trash-sweeper
+[00:46:21] *** [Server Data] sqlid: 12, name: cooldown-trash-sweeper
+[00:46:21] *** [Server Data] sqlid: 14, name: actor-diff
+[00:46:21] *** [Server Data] sqlid: 15, name: sweeper-update-time
+[00:46:21] *** [Server Data] sqlid: 17, name: def-modelid-trash-mower
+[00:46:21] *** [Server Data] sqlid: 18, name: cooldown-trash-mower
+[00:46:21] *** [Server Data] sqlid: 19, name: mower-salary-fail
+[00:46:21] *** [Server Data] sqlid: 20, name: mower-salary-per-trash
+[00:46:21] *** [Server Data] sqlid: 21, name: mower-update-time
+[00:46:21] *** [Server Data] Loading server data 9 rows.. 
+[00:46:21] [DEBUG] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[00:46:21] [DEBUG] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[00:46:21] [DEBUG] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[00:46:21] [DEBUG] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[00:46:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Trash"
+[00:46:21] [DEBUG] *** [Trash] Loaded 7 rows
+[00:46:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Vehicle_Server"
+[00:46:21] ***[MySQL] Loaded a 'vehicle_server' database as much as 2
+[00:46:21] [ Reliazed Gamemode Loaded ]
+[00:46:21] Number of vehicle models: 5
+[00:46:21] [DROPITEM] Loaded 1 Dropped items from database.
+[00:46:21] *** [Database: Loaded] dealership data (2 count).
+[00:46:21] *** [Actor] Loaded 3 Actor's
+[00:46:21] *** [House] 0 Houses were loaded.
+[00:46:21] [PPHooks] pp_public_min_index forced to 0 to evade SAMPGDK incompatibility
+[00:46:50] [connection] incoming connection: 111.94.75.73:38507 id: 0
+[00:46:51] [join] Yeonwo has joined the server (0:111.94.75.73)
+[00:46:51] *** [UtilsScripts] (timer) kill and refresh as many player timer 0
+[00:46:51] *** [Playef-Timer] Menjalankan timer k@EnergyUpdate(task id : 12)
+[00:46:51] *** [Playef-Timer] Menjalankan timer k@IsPlayerFarmer(task id : 13)
+[00:46:51] *** [Playef-Timer] Menjalankan timer k@OnlinePerSec(task id : 14)
+[00:46:51] *** [Playef-Timer] Menjalankan timer k@PlayerUpdate(task id : 15)
+[00:46:51] *** [Playef-Timer] Menjalankan timer k@SidejobGeneral(task id : 16)
+[00:46:56] [nick] Yeonwo nick changed to Steven_Yosua
+[00:46:56] [VEHICLE] Loaded 1 player vehicle from: Steven_Yosua(0)
+[00:48:36] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[00:48:37] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[00:48:40] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[00:48:41] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[00:48:41] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[00:48:41] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[00:48:42] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[00:48:42] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[00:48:42] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[00:48:43] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[00:48:43] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[00:48:45] [DEBUG] EditDynamicObject(response: 1, objectid: 11)
+[00:51:29] *** [UtilsScripts] (timer) kill and refresh as many player timer 5
+[00:51:29] UPDATE `characters` SET `AccountATM` = '0' WHERE `pID` = 13;
+[00:51:29] UPDATE `characters` SET `InHouse` = '-1' WHERE `pID` = 13;
+[00:51:29] UPDATE `characters` SET `InBiz` = '-1' WHERE `pID` = 13;
+[00:51:29] [part] Steven_Yosua has left the server (0:0)
+[05:42:30] [debug] Server received interrupt signal
+[05:42:30] [debug] Native backtrace:
+[05:42:30] [debug] #0 77473f1c in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[05:42:30] [debug] #1 75cd229f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[05:42:30] [debug] #2 75cd222f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[05:42:30] --- Server Shutting Down.
+[05:42:30] [ADM] Info: Unload EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[05:42:30] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ActorExit"
+[05:42:30] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Economy"
+[05:42:30] *** Successfully saving EconomySave
+[05:42:30] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_House_Exit"
+[05:42:30] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Mower"
+[05:42:30] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Plant"
+[05:42:30] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SaveAtm"
+[05:42:30] UPDATE `account_atm` SET `money` = '0' WHERE `SQLID` = 1;
+[05:42:30] UPDATE `account_atm` SET `status` = '0' WHERE `SQLID` = 1;
+[05:42:30] UPDATE `account_atm` SET `username` = 'Zxuan' WHERE `SQLID` = 1;
+[05:42:30] UPDATE `account_atm` SET `password` = 'Pass12' WHERE `SQLID` = 1;
+[05:42:30] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ServerData"
+[05:42:30] [DEBUG] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[05:42:30] [DEBUG] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[05:42:30] [DEBUG] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[05:42:30] [DEBUG] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[05:42:30] [DEBUG] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[05:42:30] [DEBUG] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[05:42:30] [DEBUG] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[05:42:30] [DEBUG] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[05:42:30] [DEBUG] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[05:42:30] [SETTING SERVER] Successfully saving setting server
+[05:42:30] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SweeperExit"
+[05:42:30] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Trash"
+[05:42:30] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Vehicle_Server"
+[05:42:30] *** [Vehicle Server] Save database.
+[05:42:30] 
+
+[05:42:30]  ===============================
+
+[05:42:30]      sscanf plugin unloaded.    
+
+[05:42:30]  ===============================
+
+[05:42:30] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[05:42:30] plugin.mysql: Unloading plugin...
+[05:42:30] plugin.mysql: Plugin unloaded.
+[05:42:30] ========================
+[05:42:30] = Memory access plugin =
+[05:42:30] =       Made by BigETI =
+[05:42:30] = Unloaded!            =
+[05:42:30] ========================
+[05:42:30]  PawnPlus v1.5 unloaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[05:43:20] password = ""  (string)
+[05:43:20] 
+[05:43:20] Server Plugins
+[05:43:20] --------------
+[05:43:20]  Loading plugin: crashdetect
+[05:43:20]   CrashDetect plugin 4.19.4
+[05:43:20]   Loaded.
+[05:43:20]  Loading plugin: sscanf
+[05:43:20] 
+
+[05:43:20]  ===============================
+
+[05:43:20]       sscanf plugin loaded.     
+
+[05:43:20]          Version:  2.8.3        
+
+[05:43:20]   (c) 2018 Alex "Y_Less" Cole  
+
+[05:43:20]  ===============================
+
+[05:43:20]   Loaded.
+[05:43:20]  Loading plugin: streamer
+[05:43:20] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[05:43:20]   Loaded.
+[05:43:20]  Loading plugin: samp_bcrypt
+[05:43:20] [SampBcrypt] [info]: Version: 0.3.2
+[05:43:20]   Loaded.
+[05:43:20]  Loading plugin: mysql
+[05:43:20]  >> plugin.mysql: R41-4 successfully loaded.
+[05:43:20]   Loaded.
+[05:43:20]  Loading plugin: pawn-memory
+[05:43:20] ========================
+[05:43:20] = Memory access plugin =
+[05:43:20] =       Made by BigETI =
+[05:43:20] = Loaded!              =
+[05:43:20] ========================
+[05:43:20]   Loaded.
+[05:43:20]  Loading plugin: samp-compat
+[05:43:20]   -- samp-compat for 0.3.7-R2 initialized
+[05:43:20]   Loaded.
+[05:43:20]  Loading plugin: filemanager
+[05:43:20] ******************
+[05:43:20] ** FILE MANAGER **
+[05:43:20] **    Loaded    **
+[05:43:20] ** Version 1.5 **
+[05:43:20] ******************
+[05:43:20]   Loaded.
+[05:43:20]  Loading plugin: pawnplus
+[05:43:20]  PawnPlus v1.5 loaded
+[05:43:20]  Created by IS4
+[05:43:20]   Loaded.
+[05:43:20]  Loaded 9 plugins.
+
+[05:43:21] 
+[05:43:21] Filterscripts
+[05:43:21] ---------------
+[05:43:21]   Loading filterscript 'Mapping.amx'...
+[05:43:21]   Unable to load filterscript 'Mapping.amx'.
+[05:43:21]   Loaded 0 filterscripts.
+
+[05:43:21] *** [Playef-Timer] Menjalankan timer k@OneSecondTime(task id : 1)
+[05:43:21] *** [Playef-Timer] Menjalankan timer k@RefuelCheck(task id : 2)
+[05:43:21] *** [Playef-Timer] Menjalankan timer k@RentalUpdate(task id : 3)
+[05:43:21] *** [Playef-Timer] Menjalankan timer k@Trash(task id : 4)
+[05:43:21] *** [Playef-Timer] Menjalankan timer k@VehicleUpdate(task id : 5)
+[05:43:21] *** [UtilsScripts] (timer) successfully loaded timer.inc
+[05:43:21] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[05:43:21] [MySQL] - Connection Estabilished!
+[05:43:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ActorInit"
+[05:43:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Economy"
+[05:43:21] *** [Economy] Loaded 4 rows
+[05:43:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_House_Init"
+[05:43:21] 
+==========[House System Loaded]=========
+[05:43:21]  
+
+[05:43:21] ==========================================
+
+[05:43:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadAtm"
+[05:43:21] *** [MySQL] Successfully loading Automatic Teller Machine as much as 5 rows 
+[05:43:21] *** [Account Atm] Loaded 1 rows
+[05:43:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadFarmerWheat"
+[05:43:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Plant"
+[05:43:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ServerData"
+[05:43:21] *** [Server Data] sqlid: 11, name: def-modelid-trash-sweeper
+[05:43:21] *** [Server Data] sqlid: 12, name: cooldown-trash-sweeper
+[05:43:21] *** [Server Data] sqlid: 14, name: actor-diff
+[05:43:21] *** [Server Data] sqlid: 15, name: sweeper-update-time
+[05:43:21] *** [Server Data] sqlid: 17, name: def-modelid-trash-mower
+[05:43:21] *** [Server Data] sqlid: 18, name: cooldown-trash-mower
+[05:43:21] *** [Server Data] sqlid: 19, name: mower-salary-fail
+[05:43:21] *** [Server Data] sqlid: 20, name: mower-salary-per-trash
+[05:43:21] *** [Server Data] sqlid: 21, name: mower-update-time
+[05:43:21] *** [Server Data] Loading server data 9 rows.. 
+[05:43:21] [DEBUG] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[05:43:21] [DEBUG] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[05:43:21] [DEBUG] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[05:43:21] [DEBUG] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[05:43:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Trash"
+[05:43:21] [DEBUG] *** [Trash] Loaded 7 rows
+[05:43:21] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Vehicle_Server"
+[05:43:21] ***[MySQL] Loaded a 'vehicle_server' database as much as 2
+[05:43:21] [ Reliazed Gamemode Loaded ]
+[05:43:21] Number of vehicle models: 5
+[05:43:21] [DROPITEM] Loaded 1 Dropped items from database.
+[05:43:21] *** [Database: Loaded] dealership data (2 count).
+[05:43:21] *** [Actor] Loaded 3 Actor's
+[05:43:21] *** [House] 0 Houses were loaded.
+[05:43:21] [PPHooks] pp_public_min_index forced to 0 to evade SAMPGDK incompatibility
+[05:43:36] [connection] incoming connection: 111.94.75.73:48700 id: 0
+[05:43:37] [join] Yeonwo has joined the server (0:111.94.75.73)
+[05:43:37] *** [UtilsScripts] (timer) kill and refresh as many player timer 0
+[05:43:37] *** [Playef-Timer] Menjalankan timer k@EnergyUpdate(task id : 12)
+[05:43:37] *** [Playef-Timer] Menjalankan timer k@IsPlayerFarmer(task id : 13)
+[05:43:37] *** [Playef-Timer] Menjalankan timer k@OnlinePerSec(task id : 14)
+[05:43:37] *** [Playef-Timer] Menjalankan timer k@PlayerUpdate(task id : 15)
+[05:43:37] *** [Playef-Timer] Menjalankan timer k@SidejobGeneral(task id : 16)
+[05:43:47] [nick] Yeonwo nick changed to Steven_Yosua
+[05:43:47] [VEHICLE] Loaded 1 player vehicle from: Steven_Yosua(0)
+[05:44:02] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[05:44:02] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[05:44:02] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[05:44:03] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[05:44:03] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[05:44:03] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[05:44:04] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[05:44:04] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[05:44:04] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[05:44:05] [DEBUG] EditDynamicObject(response: 2, objectid: 11)
+[05:44:05] [DEBUG] EditDynamicObject(response: 1, objectid: 11)
+[05:44:11] [DEBUG] EditDynamicObject(response: 0, objectid: 11)
+[05:44:14] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:44:14] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:44:15] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:44:15] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:44:15] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:44:15] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:44:16] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:44:16] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:44:16] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:44:16] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:44:17] [DEBUG] EditDynamicObject(response: 1, objectid: 12)
+[05:44:32] [DEBUG] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[05:44:34] [DEBUG] EditDynamicObject(response: 2, objectid: 14)
+[05:44:34] [DEBUG] EditDynamicObject(response: 2, objectid: 14)
+[05:44:35] [DEBUG] EditDynamicObject(response: 2, objectid: 14)
+[05:44:35] [DEBUG] EditDynamicObject(response: 2, objectid: 14)
+[05:44:35] [DEBUG] EditDynamicObject(response: 2, objectid: 14)
+[05:44:35] [DEBUG] EditDynamicObject(response: 2, objectid: 14)
+[05:44:36] [DEBUG] EditDynamicObject(response: 2, objectid: 14)
+[05:44:36] [DEBUG] EditDynamicObject(response: 2, objectid: 14)
+[05:44:36] [DEBUG] EditDynamicObject(response: 2, objectid: 14)
+[05:44:36] [DEBUG] EditDynamicObject(response: 2, objectid: 14)
+[05:44:37] [DEBUG] EditDynamicObject(response: 2, objectid: 14)
+[05:44:37] [DEBUG] EditDynamicObject(response: 2, objectid: 14)
+[05:44:38] [DEBUG] EditDynamicObject(response: 1, objectid: 14)
+[05:44:44] *** [UtilsScripts] (timer) kill and refresh as many player timer 5
+[05:44:44] UPDATE `characters` SET `AccountATM` = '0' WHERE `pID` = 13;
+[05:44:44] UPDATE `characters` SET `InHouse` = '-1' WHERE `pID` = 13;
+[05:44:44] UPDATE `characters` SET `InBiz` = '-1' WHERE `pID` = 13;
+[05:44:44] [part] Steven_Yosua has left the server (0:1)
+[05:44:52] [debug] Server received interrupt signal
+[05:44:52] [debug] Native backtrace:
+[05:44:52] [debug] #0 77473eec in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[05:44:52] [debug] #1 0019fe94 in ?? ()
+[05:44:52] [debug] #2 75cd222f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[05:44:52] [debug] #3 0048d53c in ?? () in samp-server.exe
+[05:44:52] [debug] #4 0049b531 in ?? () in samp-server.exe
+[05:44:52] [debug] #5 0049b541 in ?? () in samp-server.exe
+[05:44:52] --- Server Shutting Down.
+[05:44:52] [ADM] Info: Unload EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[05:44:52] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ActorExit"
+[05:44:52] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Economy"
+[05:44:52] *** Successfully saving EconomySave
+[05:44:52] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_House_Exit"
+[05:44:52] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Mower"
+[05:44:52] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Plant"
+[05:44:52] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SaveAtm"
+[05:44:52] UPDATE `account_atm` SET `money` = '0' WHERE `SQLID` = 1;
+[05:44:52] UPDATE `account_atm` SET `status` = '0' WHERE `SQLID` = 1;
+[05:44:52] UPDATE `account_atm` SET `username` = 'Zxuan' WHERE `SQLID` = 1;
+[05:44:52] UPDATE `account_atm` SET `password` = 'Pass12' WHERE `SQLID` = 1;
+[05:44:52] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ServerData"
+[05:44:52] [DEBUG] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[05:44:52] [DEBUG] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[05:44:52] [DEBUG] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[05:44:52] [DEBUG] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[05:44:52] [DEBUG] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[05:44:52] [DEBUG] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[05:44:52] [DEBUG] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[05:44:52] [DEBUG] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[05:44:52] [DEBUG] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[05:44:52] [SETTING SERVER] Successfully saving setting server
+[05:44:52] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SweeperExit"
+[05:44:52] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Trash"
+[05:44:52] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Vehicle_Server"
+[05:44:52] *** [Vehicle Server] Save database.
+[05:44:52] 
+
+[05:44:52]  ===============================
+
+[05:44:52]      sscanf plugin unloaded.    
+
+[05:44:52]  ===============================
+
+[05:44:52] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[05:44:52] plugin.mysql: Unloading plugin...
+[05:44:52] plugin.mysql: Plugin unloaded.
+[05:44:52] ========================
+[05:44:52] = Memory access plugin =
+[05:44:52] =       Made by BigETI =
+[05:44:52] = Unloaded!            =
+[05:44:52] ========================
+[05:44:52]  PawnPlus v1.5 unloaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[05:44:57] password = ""  (string)
+[05:44:57] 
+[05:44:57] Server Plugins
+[05:44:57] --------------
+[05:44:57]  Loading plugin: crashdetect
+[05:44:57]   CrashDetect plugin 4.19.4
+[05:44:57]   Loaded.
+[05:44:57]  Loading plugin: sscanf
+[05:44:57] 
+
+[05:44:57]  ===============================
+
+[05:44:57]       sscanf plugin loaded.     
+
+[05:44:57]          Version:  2.8.3        
+
+[05:44:57]   (c) 2018 Alex "Y_Less" Cole  
+
+[05:44:57]  ===============================
+
+[05:44:57]   Loaded.
+[05:44:57]  Loading plugin: streamer
+[05:44:57] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[05:44:57]   Loaded.
+[05:44:57]  Loading plugin: samp_bcrypt
+[05:44:57] [SampBcrypt] [info]: Version: 0.3.2
+[05:44:57]   Loaded.
+[05:44:57]  Loading plugin: mysql
+[05:44:57]  >> plugin.mysql: R41-4 successfully loaded.
+[05:44:57]   Loaded.
+[05:44:57]  Loading plugin: pawn-memory
+[05:44:57] ========================
+[05:44:57] = Memory access plugin =
+[05:44:57] =       Made by BigETI =
+[05:44:57] = Loaded!              =
+[05:44:57] ========================
+[05:44:57]   Loaded.
+[05:44:57]  Loading plugin: samp-compat
+[05:44:57]   -- samp-compat for 0.3.7-R2 initialized
+[05:44:57]   Loaded.
+[05:44:57]  Loading plugin: filemanager
+[05:44:57] ******************
+[05:44:57] ** FILE MANAGER **
+[05:44:57] **    Loaded    **
+[05:44:57] ** Version 1.5 **
+[05:44:57] ******************
+[05:44:57]   Loaded.
+[05:44:57]  Loading plugin: pawnplus
+[05:44:57]  PawnPlus v1.5 loaded
+[05:44:57]  Created by IS4
+[05:44:57]   Loaded.
+[05:44:57]  Loaded 9 plugins.
+
+[05:44:57] 
+[05:44:57] Filterscripts
+[05:44:57] ---------------
+[05:44:57]   Loading filterscript 'Mapping.amx'...
+[05:44:57]   Unable to load filterscript 'Mapping.amx'.
+[05:44:57]   Loaded 0 filterscripts.
+
+[05:44:57] *** [Playef-Timer] Menjalankan timer k@OneSecondTime(task id : 1)
+[05:44:57] *** [Playef-Timer] Menjalankan timer k@RefuelCheck(task id : 2)
+[05:44:57] *** [Playef-Timer] Menjalankan timer k@RentalUpdate(task id : 3)
+[05:44:57] *** [Playef-Timer] Menjalankan timer k@Trash(task id : 4)
+[05:44:57] *** [Playef-Timer] Menjalankan timer k@VehicleUpdate(task id : 5)
+[05:44:57] *** [UtilsScripts] (timer) successfully loaded timer.inc
+[05:44:57] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[05:44:57] [MySQL] - Connection Estabilished!
+[05:44:57] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ActorInit"
+[05:44:57] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Economy"
+[05:44:57] *** [Economy] Loaded 4 rows
+[05:44:57] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_House_Init"
+[05:44:57] 
+==========[House System Loaded]=========
+[05:44:57]  
+
+[05:44:57] ==========================================
+
+[05:44:57] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadAtm"
+[05:44:57] *** [MySQL] Successfully loading Automatic Teller Machine as much as 5 rows 
+[05:44:57] *** [Account Atm] Loaded 1 rows
+[05:44:57] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadFarmerWheat"
+[05:44:57] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Plant"
+[05:44:57] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ServerData"
+[05:44:57] *** [Server Data] sqlid: 11, name: def-modelid-trash-sweeper
+[05:44:57] *** [Server Data] sqlid: 12, name: cooldown-trash-sweeper
+[05:44:57] *** [Server Data] sqlid: 14, name: actor-diff
+[05:44:57] *** [Server Data] sqlid: 15, name: sweeper-update-time
+[05:44:57] *** [Server Data] sqlid: 17, name: def-modelid-trash-mower
+[05:44:57] *** [Server Data] sqlid: 18, name: cooldown-trash-mower
+[05:44:57] *** [Server Data] sqlid: 19, name: mower-salary-fail
+[05:44:57] *** [Server Data] sqlid: 20, name: mower-salary-per-trash
+[05:44:57] *** [Server Data] sqlid: 21, name: mower-update-time
+[05:44:57] *** [Server Data] Loading server data 9 rows.. 
+[05:44:57] [DEBUG] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[05:44:57] [DEBUG] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[05:44:57] [DEBUG] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[05:44:57] [DEBUG] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[05:44:57] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Trash"
+[05:44:57] [DEBUG] *** [Trash] Loaded 8 rows
+[05:44:57] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Vehicle_Server"
+[05:44:57] ***[MySQL] Loaded a 'vehicle_server' database as much as 2
+[05:44:57] [ Reliazed Gamemode Loaded ]
+[05:44:57] Number of vehicle models: 5
+[05:44:57] [DROPITEM] Loaded 1 Dropped items from database.
+[05:44:57] *** [Database: Loaded] dealership data (2 count).
+[05:44:57] *** [Actor] Loaded 3 Actor's
+[05:44:57] *** [House] 0 Houses were loaded.
+[05:44:57] [PPHooks] pp_public_min_index forced to 0 to evade SAMPGDK incompatibility
+[05:45:07] [connection] incoming connection: 111.94.75.73:39022 id: 0
+[05:45:07] [join] Yeonwo has joined the server (0:111.94.75.73)
+[05:45:07] *** [UtilsScripts] (timer) kill and refresh as many player timer 0
+[05:45:07] *** [Playef-Timer] Menjalankan timer k@EnergyUpdate(task id : 12)
+[05:45:07] *** [Playef-Timer] Menjalankan timer k@IsPlayerFarmer(task id : 13)
+[05:45:07] *** [Playef-Timer] Menjalankan timer k@OnlinePerSec(task id : 14)
+[05:45:07] *** [Playef-Timer] Menjalankan timer k@PlayerUpdate(task id : 15)
+[05:45:07] *** [Playef-Timer] Menjalankan timer k@SidejobGeneral(task id : 16)
+[05:45:34] [nick] Yeonwo nick changed to Steven_Yosua
+[05:45:34] [VEHICLE] Loaded 1 player vehicle from: Steven_Yosua(0)
+[05:45:50] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:45:50] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:45:50] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:45:50] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:45:51] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:45:51] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:45:51] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:45:52] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:45:52] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:45:53] [DEBUG] EditDynamicObject(response: 1, objectid: 12)
+[05:45:58] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:45:58] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:45:59] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:46:00] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:46:01] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:46:01] [DEBUG] EditDynamicObject(response: 2, objectid: 12)
+[05:46:02] [DEBUG] EditDynamicObject(response: 1, objectid: 12)
+[05:50:19] *** [UtilsScripts] (timer) kill and refresh as many player timer 5
+[05:50:19] UPDATE `characters` SET `AccountATM` = '0' WHERE `pID` = 13;
+[05:50:19] UPDATE `characters` SET `InHouse` = '-1' WHERE `pID` = 13;
+[05:50:19] UPDATE `characters` SET `InBiz` = '-1' WHERE `pID` = 13;
+[05:50:19] [part] Steven_Yosua has left the server (0:0)
+[05:52:24] [debug] Server received interrupt signal
+[05:52:24] [debug] Native backtrace:
+[05:52:24] [debug] #0 77473f1c in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[05:52:24] [debug] #1 75cd229f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[05:52:24] [debug] #2 75cd222f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[05:52:24] [debug] #3 0048d53c in ?? () in samp-server.exe
+[05:52:24] --- Server Shutting Down.
+[05:52:24] [ADM] Info: Unload EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[05:52:24] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ActorExit"
+[05:52:24] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Economy"
+[05:52:24] *** Successfully saving EconomySave
+[05:52:24] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_House_Exit"
+[05:52:24] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Mower"
+[05:52:24] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Plant"
+[05:52:24] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SaveAtm"
+[05:52:24] UPDATE `account_atm` SET `money` = '0' WHERE `SQLID` = 1;
+[05:52:24] UPDATE `account_atm` SET `status` = '0' WHERE `SQLID` = 1;
+[05:52:24] UPDATE `account_atm` SET `username` = 'Zxuan' WHERE `SQLID` = 1;
+[05:52:24] UPDATE `account_atm` SET `password` = 'Pass12' WHERE `SQLID` = 1;
+[05:52:24] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ServerData"
+[05:52:24] [DEBUG] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[05:52:24] [DEBUG] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[05:52:24] [DEBUG] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[05:52:24] [DEBUG] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[05:52:24] [DEBUG] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[05:52:24] [DEBUG] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[05:52:24] [DEBUG] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[05:52:24] [DEBUG] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[05:52:24] [DEBUG] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[05:52:24] [SETTING SERVER] Successfully saving setting server
+[05:52:24] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SweeperExit"
+[05:52:24] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Trash"
+[05:52:24] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Vehicle_Server"
+[05:52:24] *** [Vehicle Server] Save database.
+[05:52:24] 
+
+[05:52:24]  ===============================
+
+[05:52:24]      sscanf plugin unloaded.    
+
+[05:52:24]  ===============================
+
+[05:52:24] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[05:52:24] plugin.mysql: Unloading plugin...
+[05:52:24] plugin.mysql: Plugin unloaded.
+[05:52:24] ========================
+[05:52:24] = Memory access plugin =
+[05:52:24] =       Made by BigETI =
+[05:52:24] = Unloaded!            =
+[05:52:24] ========================
+[05:52:24]  PawnPlus v1.5 unloaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[05:53:00] password = ""  (string)
+[05:53:00] 
+[05:53:00] Server Plugins
+[05:53:00] --------------
+[05:53:00]  Loading plugin: crashdetect
+[05:53:00]   CrashDetect plugin 4.19.4
+[05:53:00]   Loaded.
+[05:53:00]  Loading plugin: sscanf
+[05:53:00] 
+
+[05:53:00]  ===============================
+
+[05:53:00]       sscanf plugin loaded.     
+
+[05:53:00]          Version:  2.8.3        
+
+[05:53:00]   (c) 2018 Alex "Y_Less" Cole  
+
+[05:53:00]  ===============================
+
+[05:53:00]   Loaded.
+[05:53:00]  Loading plugin: streamer
+[05:53:00] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[05:53:00]   Loaded.
+[05:53:00]  Loading plugin: samp_bcrypt
+[05:53:00] [SampBcrypt] [info]: Version: 0.3.2
+[05:53:00]   Loaded.
+[05:53:00]  Loading plugin: mysql
+[05:53:00]  >> plugin.mysql: R41-4 successfully loaded.
+[05:53:00]   Loaded.
+[05:53:00]  Loading plugin: pawn-memory
+[05:53:00] ========================
+[05:53:00] = Memory access plugin =
+[05:53:00] =       Made by BigETI =
+[05:53:00] = Loaded!              =
+[05:53:00] ========================
+[05:53:00]   Loaded.
+[05:53:00]  Loading plugin: samp-compat
+[05:53:00]   -- samp-compat for 0.3.7-R2 initialized
+[05:53:00]   Loaded.
+[05:53:00]  Loading plugin: filemanager
+[05:53:00] ******************
+[05:53:00] ** FILE MANAGER **
+[05:53:00] **    Loaded    **
+[05:53:00] ** Version 1.5 **
+[05:53:00] ******************
+[05:53:00]   Loaded.
+[05:53:00]  Loading plugin: pawnplus
+[05:53:00]  PawnPlus v1.5 loaded
+[05:53:00]  Created by IS4
+[05:53:00]   Loaded.
+[05:53:00]  Loaded 9 plugins.
+
+[05:53:00] 
+[05:53:00] Filterscripts
+[05:53:00] ---------------
+[05:53:00]   Loading filterscript 'Mapping.amx'...
+[05:53:00]   Unable to load filterscript 'Mapping.amx'.
+[05:53:00]   Loaded 0 filterscripts.
+
+[05:53:00] *** [Playef-Timer] Menjalankan timer k@OneSecondTime(task id : 1)
+[05:53:00] *** [Playef-Timer] Menjalankan timer k@RefuelCheck(task id : 2)
+[05:53:00] *** [Playef-Timer] Menjalankan timer k@RentalUpdate(task id : 3)
+[05:53:00] *** [Playef-Timer] Menjalankan timer k@Trash(task id : 4)
+[05:53:00] *** [Playef-Timer] Menjalankan timer k@VehicleUpdate(task id : 5)
+[05:53:00] *** [UtilsScripts] (timer) successfully loaded timer.inc
+[05:53:00] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[05:53:00] [MySQL] - Connection Estabilished!
+[05:53:00] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ActorInit"
+[05:53:00] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Economy"
+[05:53:00] *** [Economy] Loaded 4 rows
+[05:53:00] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_House_Init"
+[05:53:00] 
+==========[House System Loaded]=========
+[05:53:00]  
+
+[05:53:00] ==========================================
+
+[05:53:00] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadAtm"
+[05:53:00] *** [MySQL] Successfully loading Automatic Teller Machine as much as 5 rows 
+[05:53:00] *** [Account Atm] Loaded 1 rows
+[05:53:00] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadFarmerWheat"
+[05:53:00] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Plant"
+[05:53:00] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ServerData"
+[05:53:00] *** [Server Data] sqlid: 11, name: def-modelid-trash-sweeper
+[05:53:00] *** [Server Data] sqlid: 12, name: cooldown-trash-sweeper
+[05:53:00] *** [Server Data] sqlid: 14, name: actor-diff
+[05:53:00] *** [Server Data] sqlid: 15, name: sweeper-update-time
+[05:53:00] *** [Server Data] sqlid: 17, name: def-modelid-trash-mower
+[05:53:00] *** [Server Data] sqlid: 18, name: cooldown-trash-mower
+[05:53:00] *** [Server Data] sqlid: 19, name: mower-salary-fail
+[05:53:00] *** [Server Data] sqlid: 20, name: mower-salary-per-trash
+[05:53:00] *** [Server Data] sqlid: 21, name: mower-update-time
+[05:53:00] *** [Server Data] Loading server data 9 rows.. 
+[05:53:00] [DEBUG] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[05:53:00] [DEBUG] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[05:53:00] [DEBUG] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[05:53:00] [DEBUG] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[05:53:00] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Trash"
+[05:53:00] [DEBUG] *** [Trash] Loaded 8 rows
+[05:53:00] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Vehicle_Server"
+[05:53:00] ***[MySQL] Loaded a 'vehicle_server' database as much as 2
+[05:53:00] [ Reliazed Gamemode Loaded ]
+[05:53:00] Number of vehicle models: 5
+[05:53:00] [DROPITEM] Loaded 1 Dropped items from database.
+[05:53:00] *** [Database: Loaded] dealership data (2 count).
+[05:53:00] *** [Actor] Loaded 3 Actor's
+[05:53:00] *** [House] 0 Houses were loaded.
+[05:53:00] [PPHooks] pp_public_min_index forced to 0 to evade SAMPGDK incompatibility
+[05:53:17] [connection] incoming connection: 111.94.75.73:47857 id: 0
+[05:53:18] [join] Yeonwo has joined the server (0:111.94.75.73)
+[05:53:18] *** [UtilsScripts] (timer) kill and refresh as many player timer 0
+[05:53:18] *** [Playef-Timer] Menjalankan timer k@EnergyUpdate(task id : 12)
+[05:53:18] *** [Playef-Timer] Menjalankan timer k@IsPlayerFarmer(task id : 13)
+[05:53:18] *** [Playef-Timer] Menjalankan timer k@OnlinePerSec(task id : 14)
+[05:53:18] *** [Playef-Timer] Menjalankan timer k@PlayerUpdate(task id : 15)
+[05:53:18] *** [Playef-Timer] Menjalankan timer k@SidejobGeneral(task id : 16)
+[05:53:24] [nick] Yeonwo nick changed to Steven_Yosua
+[05:53:24] [VEHICLE] Loaded 1 player vehicle from: Steven_Yosua(0)
+[05:53:37] [DEBUG] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[05:53:37] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1377.332153, `PosY` = -2205.251953, `PosZ` = 12.846875, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 20
+[05:53:51] [DEBUG] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[05:53:51] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1382.920410, `PosY` = -2214.368408, `PosZ` = 12.846875, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 21
+[05:54:01] [DEBUG] EditDynamicObject(response: 0, objectid: 15)
+[05:54:05] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:54:07] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:54:07] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:54:08] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:54:08] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:54:08] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:54:09] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:54:09] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:54:10] [DEBUG] EditDynamicObject(response: 1, objectid: 15)
+[05:54:10] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1377.332153, `PosY` = -2205.251953, `PosZ` = 13.546877, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 20
+[05:54:36] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:36] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:37] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:37] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:38] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:39] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:40] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:40] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:41] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:41] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:42] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:42] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:43] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:44] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:44] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:45] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:45] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:46] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:46] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:46] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:46] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:47] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:47] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:47] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:48] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:48] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:48] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:48] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:49] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:49] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:49] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:49] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:49] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:49] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:49] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:49] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:50] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:50] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:50] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:50] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:50] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:50] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:50] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:50] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:50] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:51] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:51] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:51] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:51] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:51] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:51] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:52] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:52] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:52] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:52] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:52] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:52] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:52] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:53] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:53] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:53] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:53] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:54] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:54] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:54] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:54] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:54] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:54] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:54] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:54] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:54] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:54] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:55] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:55] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:55] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:55] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:55] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:55] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:55] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:55] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:55] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:56] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:56] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:56] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:56] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:56] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:56] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:56] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:56] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:56] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:57] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:57] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:57] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:57] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:57] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:57] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:58] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:58] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:58] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:58] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:58] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:58] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:58] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:58] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:59] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:59] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:59] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:59] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:59] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:54:59] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:54:59] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:00] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:00] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:00] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:00] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:00] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:01] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:01] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:01] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:01] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:01] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:02] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:02] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:02] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:02] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:02] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:02] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:02] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:02] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:03] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:03] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:03] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:03] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:03] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:03] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:03] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:03] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:04] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:04] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:04] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:04] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:04] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:04] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:04] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:04] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:05] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:05] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:05] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:05] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:06] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:06] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:06] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:06] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:06] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:06] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:06] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:06] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:06] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:07] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:07] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:07] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:07] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:07] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:07] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:07] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:07] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:07] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:07] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:07] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:07] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:08] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:08] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:08] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:08] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:08] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:08] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:08] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:08] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:08] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:09] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:09] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:09] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:09] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:09] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:09] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:09] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:09] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:09] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:09] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:10] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:10] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:10] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:10] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:11] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:11] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:11] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:11] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:11] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:11] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:11] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:12] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:12] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:12] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:12] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:12] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:12] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:13] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:13] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:13] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:55:13] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:15] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:55:22] [DEBUG] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[05:55:22] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1350.344726, `PosY` = -2225.496826, `PosZ` = 12.682812, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 22
+[05:55:28] [DEBUG] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[05:55:28] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1335.138427, `PosY` = -2231.891601, `PosZ` = 12.682812, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 23
+[05:55:50] [DEBUG] EditDynamicObject(response: 2, objectid: 18)
+[05:55:51] [DEBUG] EditDynamicObject(response: 2, objectid: 18)
+[05:55:51] [DEBUG] EditDynamicObject(response: 2, objectid: 18)
+[05:55:51] [DEBUG] EditDynamicObject(response: 2, objectid: 18)
+[05:55:51] [DEBUG] EditDynamicObject(response: 2, objectid: 18)
+[05:55:52] [DEBUG] EditDynamicObject(response: 2, objectid: 18)
+[05:55:52] [DEBUG] EditDynamicObject(response: 2, objectid: 18)
+[05:55:52] [DEBUG] EditDynamicObject(response: 2, objectid: 18)
+[05:55:52] [DEBUG] EditDynamicObject(response: 2, objectid: 18)
+[05:55:53] [DEBUG] EditDynamicObject(response: 2, objectid: 18)
+[05:55:53] [DEBUG] EditDynamicObject(response: 2, objectid: 18)
+[05:55:54] [DEBUG] EditDynamicObject(response: 1, objectid: 18)
+[05:55:54] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1335.138427, `PosY` = -2231.891601, `PosZ` = 13.882817, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 23
+[05:56:04] [DEBUG] EditDynamicObject(response: 0, objectid: 17)
+[05:56:07] [DEBUG] EditDynamicObject(response: 0, objectid: 18)
+[05:56:25] [DEBUG] EditDynamicObject(response: 0, objectid: 11)
+[05:56:29] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:30] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:30] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:30] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:31] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:31] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:31] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:32] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:32] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:32] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:33] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:33] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:33] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:33] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:33] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:33] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:33] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:34] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:34] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:34] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:34] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:34] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:34] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:34] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:35] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:35] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:35] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:36] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:36] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:36] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:36] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:36] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:37] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:37] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:37] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:37] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:38] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:38] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:38] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:38] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:39] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:39] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:39] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:39] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:39] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:39] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:40] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:40] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:40] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:40] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:40] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:40] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:40] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:41] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:41] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:41] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:41] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:41] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:42] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:42] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:42] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:43] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:43] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:43] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:43] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:43] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:44] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:44] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:44] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:45] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:45] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:45] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:45] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:45] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:45] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:45] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:46] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:46] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:46] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:46] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:46] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:46] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:47] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:47] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:47] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:47] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:48] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:48] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:48] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:48] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:49] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:49] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:49] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:50] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:50] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:50] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:51] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:51] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:51] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:51] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:52] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:52] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:52] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:53] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:53] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:53] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:54] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:54] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:54] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:55] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:55] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:55] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:56] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:56] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:56] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:56] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:57] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:57] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:57] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:58] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:58] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:58] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:58] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:58] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:59] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:59] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:56:59] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:56:59] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:57:00] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:57:00] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:57:00] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:57:00] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:57:00] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:57:00] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:57:01] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:57:01] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:57:01] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:57:01] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:57:01] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:57:02] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:57:02] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:57:02] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:57:02] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:57:02] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:57:03] [DEBUG] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[05:57:04] [DEBUG] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[05:57:06] [DEBUG] EditDynamicObject(response: 2, objectid: 10)
+[05:57:07] [DEBUG] EditDynamicObject(response: 2, objectid: 10)
+[05:57:07] [DEBUG] EditDynamicObject(response: 2, objectid: 10)
+[05:57:07] [DEBUG] EditDynamicObject(response: 2, objectid: 10)
+[05:57:08] [DEBUG] EditDynamicObject(response: 2, objectid: 10)
+[05:57:08] [DEBUG] EditDynamicObject(response: 2, objectid: 10)
+[05:57:08] [DEBUG] EditDynamicObject(response: 2, objectid: 10)
+[05:57:08] [DEBUG] EditDynamicObject(response: 2, objectid: 10)
+[05:57:09] [DEBUG] EditDynamicObject(response: 2, objectid: 10)
+[05:57:09] [DEBUG] EditDynamicObject(response: 2, objectid: 10)
+[05:57:09] [DEBUG] EditDynamicObject(response: 2, objectid: 10)
+[05:57:10] [DEBUG] EditDynamicObject(response: 2, objectid: 10)
+[05:57:11] [DEBUG] EditDynamicObject(response: 1, objectid: 10)
+[05:57:11] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1387.000000, `PosY` = -2195.000000, `PosZ` = 13.299997, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 12
+[05:57:14] [DEBUG] EditDynamicObject(response: 0, objectid: 15)
+[05:57:23] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:23] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:24] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:24] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:24] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:24] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:25] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:25] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:25] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:26] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:26] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:26] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:27] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:27] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:27] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:28] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:28] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:28] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:28] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:29] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:29] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:29] [DEBUG] EditDynamicObject(response: 2, objectid: 15)
+[05:57:41] *** [UtilsScripts] (timer) kill and refresh as many player timer 5
+[05:57:41] UPDATE `characters` SET `AccountATM` = '0' WHERE `pID` = 13;
+[05:57:41] UPDATE `characters` SET `InHouse` = '-1' WHERE `pID` = 13;
+[05:57:41] UPDATE `characters` SET `InBiz` = '-1' WHERE `pID` = 13;
+[05:57:41] [part] Steven_Yosua has left the server (0:1)
+[05:57:53] [debug] Server received interrupt signal
+[05:57:54] [debug] Native backtrace:
+[05:57:54] [debug] #0 77473f1c in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[05:57:54] [debug] #1 75cd229f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[05:57:54] [debug] #2 75cd222f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[05:57:54] [debug] #3 0048d53c in ?? () in samp-server.exe
+[05:57:54] [debug] #4 0049b531 in ?? () in samp-server.exe
+[05:57:54] [debug] #5 0049b541 in ?? () in samp-server.exe
+[05:57:54] --- Server Shutting Down.
+[05:57:54] [ADM] Info: Unload EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[05:57:54] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ActorExit"
+[05:57:54] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Economy"
+[05:57:54] *** Successfully saving EconomySave
+[05:57:54] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_House_Exit"
+[05:57:54] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Mower"
+[05:57:54] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Plant"
+[05:57:54] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SaveAtm"
+[05:57:54] UPDATE `account_atm` SET `money` = '0' WHERE `SQLID` = 1;
+[05:57:54] UPDATE `account_atm` SET `status` = '0' WHERE `SQLID` = 1;
+[05:57:54] UPDATE `account_atm` SET `username` = 'Zxuan' WHERE `SQLID` = 1;
+[05:57:54] UPDATE `account_atm` SET `password` = 'Pass12' WHERE `SQLID` = 1;
+[05:57:54] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ServerData"
+[05:57:54] [DEBUG] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[05:57:54] [DEBUG] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[05:57:54] [DEBUG] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[05:57:54] [DEBUG] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[05:57:54] [DEBUG] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[05:57:54] [DEBUG] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[05:57:54] [DEBUG] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[05:57:54] [DEBUG] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[05:57:54] [DEBUG] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[05:57:54] [SETTING SERVER] Successfully saving setting server
+[05:57:54] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SweeperExit"
+[05:57:54] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Trash"
+[05:57:54] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1387.000000, `PosY` = -2195.000000, `PosZ` = 13.299997, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 12
+[05:57:54] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1389.000000, `PosY` = -2193.000000, `PosZ` = 13.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 13
+[05:57:54] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1393.000000, `PosY` = -2196.000000, `PosZ` = 14.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 14
+[05:57:54] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1392.000000, `PosY` = -2202.000000, `PosZ` = 13.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 15
+[05:57:54] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1389.000000, `PosY` = -2205.000000, `PosZ` = 12.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 16
+[05:57:54] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1390.000000, `PosY` = -2210.000000, `PosZ` = 12.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 17
+[05:57:54] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1385.000000, `PosY` = -2213.000000, `PosZ` = 12.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 18
+[05:57:54] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1377.000000, `PosY` = -2208.000000, `PosZ` = 12.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 19
+[05:57:54] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1377.332153, `PosY` = -2205.251953, `PosZ` = 13.546877, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 20
+[05:57:54] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1382.920410, `PosY` = -2214.368408, `PosZ` = 12.846875, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 21
+[05:57:54] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1350.344726, `PosY` = -2225.496826, `PosZ` = 12.682812, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 22
+[05:57:54] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1335.138427, `PosY` = -2231.891601, `PosZ` = 13.882817, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 23
+[05:57:54] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Vehicle_Server"
+[05:57:54] *** [Vehicle Server] Save database.
+[05:57:54] 
+
+[05:57:54]  ===============================
+
+[05:57:54]      sscanf plugin unloaded.    
+
+[05:57:54]  ===============================
+
+[05:57:54] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[05:57:54] plugin.mysql: Unloading plugin...
+[05:57:54] plugin.mysql: Plugin unloaded.
+[05:57:54] ========================
+[05:57:54] = Memory access plugin =
+[05:57:54] =       Made by BigETI =
+[05:57:54] = Unloaded!            =
+[05:57:54] ========================
+[05:57:54]  PawnPlus v1.5 unloaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[05:57:55] password = ""  (string)
+[05:57:55] 
+[05:57:55] Server Plugins
+[05:57:55] --------------
+[05:57:55]  Loading plugin: crashdetect
+[05:57:55]   CrashDetect plugin 4.19.4
+[05:57:55]   Loaded.
+[05:57:55]  Loading plugin: sscanf
+[05:57:55] 
+
+[05:57:55]  ===============================
+
+[05:57:55]       sscanf plugin loaded.     
+
+[05:57:55]          Version:  2.8.3        
+
+[05:57:55]   (c) 2018 Alex "Y_Less" Cole  
+
+[05:57:55]  ===============================
+
+[05:57:55]   Loaded.
+[05:57:55]  Loading plugin: streamer
+[05:57:55] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[05:57:55]   Loaded.
+[05:57:55]  Loading plugin: samp_bcrypt
+[05:57:55] [SampBcrypt] [info]: Version: 0.3.2
+[05:57:55]   Loaded.
+[05:57:55]  Loading plugin: mysql
+[05:57:55]  >> plugin.mysql: R41-4 successfully loaded.
+[05:57:55]   Loaded.
+[05:57:55]  Loading plugin: pawn-memory
+[05:57:55] ========================
+[05:57:55] = Memory access plugin =
+[05:57:55] =       Made by BigETI =
+[05:57:55] = Loaded!              =
+[05:57:55] ========================
+[05:57:55]   Loaded.
+[05:57:55]  Loading plugin: samp-compat
+[05:57:55]   -- samp-compat for 0.3.7-R2 initialized
+[05:57:55]   Loaded.
+[05:57:55]  Loading plugin: filemanager
+[05:57:55] ******************
+[05:57:55] ** FILE MANAGER **
+[05:57:55] **    Loaded    **
+[05:57:55] ** Version 1.5 **
+[05:57:55] ******************
+[05:57:55]   Loaded.
+[05:57:55]  Loading plugin: pawnplus
+[05:57:55]  PawnPlus v1.5 loaded
+[05:57:55]  Created by IS4
+[05:57:55]   Loaded.
+[05:57:56]  Loaded 9 plugins.
+
+[05:57:56] 
+[05:57:56] Filterscripts
+[05:57:56] ---------------
+[05:57:56]   Loading filterscript 'Mapping.amx'...
+[05:57:56]   Unable to load filterscript 'Mapping.amx'.
+[05:57:56]   Loaded 0 filterscripts.
+
+[05:57:56] *** [Playef-Timer] Menjalankan timer k@OneSecondTime(task id : 1)
+[05:57:56] *** [Playef-Timer] Menjalankan timer k@RefuelCheck(task id : 2)
+[05:57:56] *** [Playef-Timer] Menjalankan timer k@RentalUpdate(task id : 3)
+[05:57:56] *** [Playef-Timer] Menjalankan timer k@Trash(task id : 4)
+[05:57:56] *** [Playef-Timer] Menjalankan timer k@VehicleUpdate(task id : 5)
+[05:57:56] *** [UtilsScripts] (timer) successfully loaded timer.inc
+[05:57:56] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[05:57:56] [MySQL] - Connection Estabilished!
+[05:57:56] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ActorInit"
+[05:57:56] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Economy"
+[05:57:56] *** [Economy] Loaded 4 rows
+[05:57:56] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_House_Init"
+[05:57:56] 
+==========[House System Loaded]=========
+[05:57:56]  
+
+[05:57:56] ==========================================
+
+[05:57:56] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadAtm"
+[05:57:56] *** [MySQL] Successfully loading Automatic Teller Machine as much as 5 rows 
+[05:57:56] *** [Account Atm] Loaded 1 rows
+[05:57:56] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadFarmerWheat"
+[05:57:56] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Plant"
+[05:57:56] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ServerData"
+[05:57:56] *** [Server Data] sqlid: 11, name: def-modelid-trash-sweeper
+[05:57:56] *** [Server Data] sqlid: 12, name: cooldown-trash-sweeper
+[05:57:56] *** [Server Data] sqlid: 14, name: actor-diff
+[05:57:56] *** [Server Data] sqlid: 15, name: sweeper-update-time
+[05:57:56] *** [Server Data] sqlid: 17, name: def-modelid-trash-mower
+[05:57:56] *** [Server Data] sqlid: 18, name: cooldown-trash-mower
+[05:57:56] *** [Server Data] sqlid: 19, name: mower-salary-fail
+[05:57:56] *** [Server Data] sqlid: 20, name: mower-salary-per-trash
+[05:57:56] *** [Server Data] sqlid: 21, name: mower-update-time
+[05:57:56] *** [Server Data] Loading server data 9 rows.. 
+[05:57:56] [DEBUG] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[05:57:56] [DEBUG] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[05:57:56] [DEBUG] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[05:57:56] [DEBUG] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[05:57:56] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Trash"
+[05:57:56] [DEBUG] *** [Trash] Loaded 12 rows
+[05:57:56] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Vehicle_Server"
+[05:57:56] ***[MySQL] Loaded a 'vehicle_server' database as much as 2
+[05:57:56] [ Reliazed Gamemode Loaded ]
+[05:57:56] Number of vehicle models: 5
+[05:57:56] [DROPITEM] Loaded 1 Dropped items from database.
+[05:57:56] *** [Database: Loaded] dealership data (2 count).
+[05:57:56] *** [Actor] Loaded 3 Actor's
+[05:57:56] *** [House] 0 Houses were loaded.
+[05:57:56] [PPHooks] pp_public_min_index forced to 0 to evade SAMPGDK incompatibility
+[05:58:18] [connection] incoming connection: 111.94.75.73:39380 id: 0
+[05:58:18] [join] Yeonwo has joined the server (0:111.94.75.73)
+[05:58:18] *** [UtilsScripts] (timer) kill and refresh as many player timer 0
+[05:58:18] *** [Playef-Timer] Menjalankan timer k@EnergyUpdate(task id : 12)
+[05:58:18] *** [Playef-Timer] Menjalankan timer k@IsPlayerFarmer(task id : 13)
+[05:58:18] *** [Playef-Timer] Menjalankan timer k@OnlinePerSec(task id : 14)
+[05:58:18] *** [Playef-Timer] Menjalankan timer k@PlayerUpdate(task id : 15)
+[05:58:18] *** [Playef-Timer] Menjalankan timer k@SidejobGeneral(task id : 16)
+[05:58:23] [nick] Yeonwo nick changed to Steven_Yosua
+[05:58:23] [VEHICLE] Loaded 1 player vehicle from: Steven_Yosua(0)
+[05:58:42] [DEBUG] EditDynamicObject(response: 2, objectid: 16)
+[05:58:42] [DEBUG] EditDynamicObject(response: 2, objectid: 16)
+[05:58:42] [DEBUG] EditDynamicObject(response: 2, objectid: 16)
+[05:58:42] [DEBUG] EditDynamicObject(response: 2, objectid: 16)
+[05:58:43] [DEBUG] EditDynamicObject(response: 2, objectid: 16)
+[05:58:43] [DEBUG] EditDynamicObject(response: 2, objectid: 16)
+[05:58:44] [DEBUG] EditDynamicObject(response: 1, objectid: 16)
+[05:58:44] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1350.000000, `PosY` = -2225.000000, `PosZ` = 12.700002, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 22
+[06:02:50] *** [UtilsScripts] (timer) kill and refresh as many player timer 5
+[06:02:50] UPDATE `characters` SET `AccountATM` = '0' WHERE `pID` = 13;
+[06:02:50] UPDATE `characters` SET `InHouse` = '-1' WHERE `pID` = 13;
+[06:02:50] UPDATE `characters` SET `InBiz` = '-1' WHERE `pID` = 13;
+[06:02:50] [part] Steven_Yosua has left the server (0:0)
+[06:06:02] [debug] Server received interrupt signal
+[06:06:03] [debug] Native backtrace:
+[06:06:03] [debug] #0 77473f1c in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[06:06:03] [debug] #1 75cd229f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[06:06:03] [debug] #2 75cd222f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[06:06:03] [debug] #3 0048d53c in ?? () in samp-server.exe
+[06:06:03] [debug] #4 0049b531 in ?? () in samp-server.exe
+[06:06:03] [debug] #5 0049b541 in ?? () in samp-server.exe
+[06:06:03] --- Server Shutting Down.
+[06:06:03] [ADM] Info: Unload EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[06:06:03] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ActorExit"
+[06:06:03] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Economy"
+[06:06:03] *** Successfully saving EconomySave
+[06:06:03] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_House_Exit"
+[06:06:03] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Mower"
+[06:06:03] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Plant"
+[06:06:03] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SaveAtm"
+[06:06:03] UPDATE `account_atm` SET `money` = '0' WHERE `SQLID` = 1;
+[06:06:03] UPDATE `account_atm` SET `status` = '0' WHERE `SQLID` = 1;
+[06:06:03] UPDATE `account_atm` SET `username` = 'Zxuan' WHERE `SQLID` = 1;
+[06:06:03] UPDATE `account_atm` SET `password` = 'Pass12' WHERE `SQLID` = 1;
+[06:06:03] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ServerData"
+[06:06:03] [DEBUG] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[06:06:03] [DEBUG] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[06:06:03] [DEBUG] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[06:06:03] [DEBUG] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[06:06:03] [DEBUG] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[06:06:03] [DEBUG] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[06:06:03] [DEBUG] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[06:06:03] [DEBUG] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[06:06:03] [DEBUG] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[06:06:03] [SETTING SERVER] Successfully saving setting server
+[06:06:03] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SweeperExit"
+[06:06:03] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Trash"
+[06:06:03] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1387.000000, `PosY` = -2195.000000, `PosZ` = 13.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 12
+[06:06:03] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1389.000000, `PosY` = -2193.000000, `PosZ` = 13.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 13
+[06:06:03] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1393.000000, `PosY` = -2196.000000, `PosZ` = 14.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 14
+[06:06:03] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1392.000000, `PosY` = -2202.000000, `PosZ` = 13.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 15
+[06:06:03] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1389.000000, `PosY` = -2205.000000, `PosZ` = 12.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 16
+[06:06:03] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1390.000000, `PosY` = -2210.000000, `PosZ` = 12.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 17
+[06:06:03] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1385.000000, `PosY` = -2213.000000, `PosZ` = 12.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 18
+[06:06:03] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1377.000000, `PosY` = -2208.000000, `PosZ` = 12.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 19
+[06:06:03] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1377.000000, `PosY` = -2205.000000, `PosZ` = 13.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 20
+[06:06:03] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1382.000000, `PosY` = -2214.000000, `PosZ` = 12.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 21
+[06:06:03] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1350.000000, `PosY` = -2225.000000, `PosZ` = 12.700002, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 22
+[06:06:03] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1335.000000, `PosY` = -2231.000000, `PosZ` = 13.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 23
+[06:06:03] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Vehicle_Server"
+[06:06:03] *** [Vehicle Server] Save database.
+[06:06:03] 
+
+[06:06:03]  ===============================
+
+[06:06:03]      sscanf plugin unloaded.    
+
+[06:06:03]  ===============================
+
+[06:06:03] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[06:06:03] plugin.mysql: Unloading plugin...
+[06:06:03] plugin.mysql: Plugin unloaded.
+[06:06:03] ========================
+[06:06:03] = Memory access plugin =
+[06:06:03] =       Made by BigETI =
+[06:06:03] = Unloaded!            =
+[06:06:03] ========================
+[06:06:03]  PawnPlus v1.5 unloaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[06:06:08] password = ""  (string)
+[06:06:08] 
+[06:06:08] Server Plugins
+[06:06:08] --------------
+[06:06:08]  Loading plugin: crashdetect
+[06:06:08]   CrashDetect plugin 4.19.4
+[06:06:08]   Loaded.
+[06:06:08]  Loading plugin: sscanf
+[06:06:08] 
+
+[06:06:08]  ===============================
+
+[06:06:08]       sscanf plugin loaded.     
+
+[06:06:08]          Version:  2.8.3        
+
+[06:06:08]   (c) 2018 Alex "Y_Less" Cole  
+
+[06:06:08]  ===============================
+
+[06:06:08]   Loaded.
+[06:06:08]  Loading plugin: streamer
+[06:06:08] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[06:06:08]   Loaded.
+[06:06:08]  Loading plugin: samp_bcrypt
+[06:06:08] [SampBcrypt] [info]: Version: 0.3.2
+[06:06:08]   Loaded.
+[06:06:08]  Loading plugin: mysql
+[06:06:08]  >> plugin.mysql: R41-4 successfully loaded.
+[06:06:08]   Loaded.
+[06:06:08]  Loading plugin: pawn-memory
+[06:06:08] ========================
+[06:06:08] = Memory access plugin =
+[06:06:08] =       Made by BigETI =
+[06:06:08] = Loaded!              =
+[06:06:08] ========================
+[06:06:08]   Loaded.
+[06:06:08]  Loading plugin: samp-compat
+[06:06:08]   -- samp-compat for 0.3.7-R2 initialized
+[06:06:08]   Loaded.
+[06:06:08]  Loading plugin: filemanager
+[06:06:08] ******************
+[06:06:08] ** FILE MANAGER **
+[06:06:08] **    Loaded    **
+[06:06:08] ** Version 1.5 **
+[06:06:08] ******************
+[06:06:08]   Loaded.
+[06:06:08]  Loading plugin: pawnplus
+[06:06:08]  PawnPlus v1.5 loaded
+[06:06:08]  Created by IS4
+[06:06:08]   Loaded.
+[06:06:08]  Loaded 9 plugins.
+
+[06:06:08] 
+[06:06:08] Filterscripts
+[06:06:08] ---------------
+[06:06:08]   Loading filterscript 'Mapping.amx'...
+[06:06:08]   Unable to load filterscript 'Mapping.amx'.
+[06:06:08]   Loaded 0 filterscripts.
+
+[06:06:08] *** [Playef-Timer] Menjalankan timer k@OneSecondTime(task id : 1)
+[06:06:08] *** [Playef-Timer] Menjalankan timer k@RefuelCheck(task id : 2)
+[06:06:08] *** [Playef-Timer] Menjalankan timer k@RentalUpdate(task id : 3)
+[06:06:08] *** [Playef-Timer] Menjalankan timer k@Trash(task id : 4)
+[06:06:08] *** [Playef-Timer] Menjalankan timer k@VehicleUpdate(task id : 5)
+[06:06:08] *** [UtilsScripts] (timer) successfully loaded timer.inc
+[06:06:08] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[06:06:08] [MySQL] - Connection Estabilished!
+[06:06:08] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ActorInit"
+[06:06:08] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Economy"
+[06:06:08] *** [Economy] Loaded 4 rows
+[06:06:08] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_House_Init"
+[06:06:08] 
+==========[House System Loaded]=========
+[06:06:08]  
+
+[06:06:08] ==========================================
+
+[06:06:08] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadAtm"
+[06:06:08] *** [MySQL] Successfully loading Automatic Teller Machine as much as 5 rows 
+[06:06:08] *** [Account Atm] Loaded 1 rows
+[06:06:08] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadFarmerWheat"
+[06:06:08] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Plant"
+[06:06:08] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ServerData"
+[06:06:08] *** [Server Data] sqlid: 11, name: def-modelid-trash-sweeper
+[06:06:08] *** [Server Data] sqlid: 12, name: cooldown-trash-sweeper
+[06:06:08] *** [Server Data] sqlid: 14, name: actor-diff
+[06:06:08] *** [Server Data] sqlid: 15, name: sweeper-update-time
+[06:06:08] *** [Server Data] sqlid: 17, name: def-modelid-trash-mower
+[06:06:08] *** [Server Data] sqlid: 18, name: cooldown-trash-mower
+[06:06:08] *** [Server Data] sqlid: 19, name: mower-salary-fail
+[06:06:08] *** [Server Data] sqlid: 20, name: mower-salary-per-trash
+[06:06:08] *** [Server Data] sqlid: 21, name: mower-update-time
+[06:06:08] *** [Server Data] Loading server data 9 rows.. 
+[06:06:08] [DEBUG] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[06:06:08] [DEBUG] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[06:06:08] [DEBUG] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[06:06:08] [DEBUG] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[06:06:08] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Trash"
+[06:06:08] [DEBUG] *** [Trash] Loaded 0 rows
+[06:06:08] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Vehicle_Server"
+[06:06:08] ***[MySQL] Loaded a 'vehicle_server' database as much as 2
+[06:06:08] [ Reliazed Gamemode Loaded ]
+[06:06:08] Number of vehicle models: 5
+[06:06:08] [DROPITEM] Loaded 1 Dropped items from database.
+[06:06:08] *** [Database: Loaded] dealership data (2 count).
+[06:06:08] *** [Actor] Loaded 3 Actor's
+[06:06:08] [PPHooks] pp_public_min_index forced to 0 to evade SAMPGDK incompatibility
+[06:06:08] *** [House] 0 Houses were loaded.
+[06:06:39] [connection] incoming connection: 111.94.75.73:40244 id: 0
+[06:06:39] [join] Yeonwo has joined the server (0:111.94.75.73)
+[06:06:39] *** [UtilsScripts] (timer) kill and refresh as many player timer 0
+[06:06:39] *** [Playef-Timer] Menjalankan timer k@EnergyUpdate(task id : 12)
+[06:06:39] *** [Playef-Timer] Menjalankan timer k@IsPlayerFarmer(task id : 13)
+[06:06:39] *** [Playef-Timer] Menjalankan timer k@OnlinePerSec(task id : 14)
+[06:06:39] *** [Playef-Timer] Menjalankan timer k@PlayerUpdate(task id : 15)
+[06:06:39] *** [Playef-Timer] Menjalankan timer k@SidejobGeneral(task id : 16)
+[06:06:45] [nick] Yeonwo nick changed to Steven_Yosua
+[06:06:45] [VEHICLE] Loaded 1 player vehicle from: Steven_Yosua(0)
+[06:06:54] [DEBUG] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[06:06:54] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1346.760009, `PosY` = -2226.780029, `PosZ` = 12.682812, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 24
+[06:06:58] [DEBUG] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[06:06:58] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1349.372924, `PosY` = -2219.702148, `PosZ` = 12.682812, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 25
+[06:07:01] [DEBUG] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[06:07:01] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1353.157470, `PosY` = -2213.007324, `PosZ` = 12.682812, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 26
+[06:07:03] [DEBUG] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[06:07:03] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1353.905151, `PosY` = -2208.630859, `PosZ` = 12.682812, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 27
+[06:07:05] [DEBUG] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[06:07:05] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1349.920166, `PosY` = -2206.612060, `PosZ` = 12.682812, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 28
+[06:07:08] [DEBUG] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[06:07:08] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1347.034423, `PosY` = -2204.552978, `PosZ` = 12.682812, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 29
+[06:07:12] [DEBUG] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[06:07:12] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1350.955322, `PosY` = -2199.219238, `PosZ` = 12.682812, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 30
+[06:07:38] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:38] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:39] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:39] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:39] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:40] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:40] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:40] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:41] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:41] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:41] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:41] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:42] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:42] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:42] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:42] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:43] [DEBUG] EditDynamicObject(response: 2, objectid: 7)
+[06:07:45] [DEBUG] EditDynamicObject(response: 1, objectid: 7)
+[06:07:45] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1346.760009, `PosY` = -2226.780029, `PosZ` = 15.182822, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 24
+[06:07:59] *** [UtilsScripts] (timer) kill and refresh as many player timer 5
+[06:07:59] UPDATE `characters` SET `AccountATM` = '0' WHERE `pID` = 13;
+[06:07:59] UPDATE `characters` SET `InHouse` = '-1' WHERE `pID` = 13;
+[06:07:59] UPDATE `characters` SET `InBiz` = '-1' WHERE `pID` = 13;
+[06:07:59] [part] Steven_Yosua has left the server (0:0)
+[06:08:10] [debug] Server received interrupt signal
+[06:08:10] [debug] Native backtrace:
+[06:08:10] [debug] #0 77473f1c in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[06:08:10] [debug] #1 75cd229f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[06:08:10] [debug] #2 75cd222f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[06:08:10] [debug] #3 0048d53c in ?? () in samp-server.exe
+[06:08:10] --- Server Shutting Down.
+[06:08:10] [ADM] Info: Unload EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[06:08:10] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ActorExit"
+[06:08:10] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Economy"
+[06:08:10] *** Successfully saving EconomySave
+[06:08:10] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_House_Exit"
+[06:08:10] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Mower"
+[06:08:10] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Plant"
+[06:08:10] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SaveAtm"
+[06:08:10] UPDATE `account_atm` SET `money` = '0' WHERE `SQLID` = 1;
+[06:08:10] UPDATE `account_atm` SET `status` = '0' WHERE `SQLID` = 1;
+[06:08:10] UPDATE `account_atm` SET `username` = 'Zxuan' WHERE `SQLID` = 1;
+[06:08:10] UPDATE `account_atm` SET `password` = 'Pass12' WHERE `SQLID` = 1;
+[06:08:10] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ServerData"
+[06:08:10] [DEBUG] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[06:08:10] [DEBUG] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[06:08:10] [DEBUG] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[06:08:10] [DEBUG] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[06:08:10] [DEBUG] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[06:08:10] [DEBUG] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[06:08:10] [DEBUG] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[06:08:10] [DEBUG] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[06:08:10] [DEBUG] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[06:08:10] [SETTING SERVER] Successfully saving setting server
+[06:08:10] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SweeperExit"
+[06:08:10] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Trash"
+[06:08:10] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1346.760009, `PosY` = -2226.780029, `PosZ` = 15.182822, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 24
+[06:08:10] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1349.372924, `PosY` = -2219.702148, `PosZ` = 12.682812, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 25
+[06:08:10] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1353.157470, `PosY` = -2213.007324, `PosZ` = 12.682812, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 26
+[06:08:10] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1353.905151, `PosY` = -2208.630859, `PosZ` = 12.682812, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 27
+[06:08:10] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1349.920166, `PosY` = -2206.612060, `PosZ` = 12.682812, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 28
+[06:08:10] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1347.034423, `PosY` = -2204.552978, `PosZ` = 12.682812, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 29
+[06:08:10] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1350.955322, `PosY` = -2199.219238, `PosZ` = 12.682812, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 30
+[06:08:10] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Vehicle_Server"
+[06:08:10] *** [Vehicle Server] Save database.
+[06:08:10] 
+
+[06:08:10]  ===============================
+
+[06:08:10]      sscanf plugin unloaded.    
+
+[06:08:10]  ===============================
+
+[06:08:10] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[06:08:10] plugin.mysql: Unloading plugin...
+[06:08:10] plugin.mysql: Plugin unloaded.
+[06:08:10] ========================
+[06:08:10] = Memory access plugin =
+[06:08:10] =       Made by BigETI =
+[06:08:10] = Unloaded!            =
+[06:08:10] ========================
+[06:08:10]  PawnPlus v1.5 unloaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[06:08:26] password = ""  (string)
+[06:08:26] 
+[06:08:26] Server Plugins
+[06:08:26] --------------
+[06:08:26]  Loading plugin: crashdetect
+[06:08:26]   CrashDetect plugin 4.19.4
+[06:08:26]   Loaded.
+[06:08:26]  Loading plugin: sscanf
+[06:08:26] 
+
+[06:08:26]  ===============================
+
+[06:08:26]       sscanf plugin loaded.     
+
+[06:08:26]          Version:  2.8.3        
+
+[06:08:26]   (c) 2018 Alex "Y_Less" Cole  
+
+[06:08:26]  ===============================
+
+[06:08:26]   Loaded.
+[06:08:26]  Loading plugin: streamer
+[06:08:26] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[06:08:26]   Loaded.
+[06:08:26]  Loading plugin: samp_bcrypt
+[06:08:26] [SampBcrypt] [info]: Version: 0.3.2
+[06:08:26]   Loaded.
+[06:08:26]  Loading plugin: mysql
+[06:08:26]  >> plugin.mysql: R41-4 successfully loaded.
+[06:08:26]   Loaded.
+[06:08:26]  Loading plugin: pawn-memory
+[06:08:26] ========================
+[06:08:26] = Memory access plugin =
+[06:08:26] =       Made by BigETI =
+[06:08:26] = Loaded!              =
+[06:08:26] ========================
+[06:08:26]   Loaded.
+[06:08:26]  Loading plugin: samp-compat
+[06:08:26]   -- samp-compat for 0.3.7-R2 initialized
+[06:08:26]   Loaded.
+[06:08:26]  Loading plugin: filemanager
+[06:08:26] ******************
+[06:08:26] ** FILE MANAGER **
+[06:08:26] **    Loaded    **
+[06:08:26] ** Version 1.5 **
+[06:08:26] ******************
+[06:08:26]   Loaded.
+[06:08:26]  Loading plugin: pawnplus
+[06:08:26]  PawnPlus v1.5 loaded
+[06:08:26]  Created by IS4
+[06:08:26]   Loaded.
+[06:08:26]  Loaded 9 plugins.
+
+[06:08:26] 
+[06:08:26] Filterscripts
+[06:08:26] ---------------
+[06:08:26]   Loading filterscript 'Mapping.amx'...
+[06:08:26]   Unable to load filterscript 'Mapping.amx'.
+[06:08:26]   Loaded 0 filterscripts.
+
+[06:08:26] *** [Playef-Timer] Menjalankan timer k@OneSecondTime(task id : 1)
+[06:08:26] *** [Playef-Timer] Menjalankan timer k@RefuelCheck(task id : 2)
+[06:08:26] *** [Playef-Timer] Menjalankan timer k@RentalUpdate(task id : 3)
+[06:08:26] *** [Playef-Timer] Menjalankan timer k@Trash(task id : 4)
+[06:08:26] *** [Playef-Timer] Menjalankan timer k@VehicleUpdate(task id : 5)
+[06:08:26] *** [UtilsScripts] (timer) successfully loaded timer.inc
+[06:08:26] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[06:08:26] [MySQL] - Connection Estabilished!
+[06:08:26] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ActorInit"
+[06:08:26] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Economy"
+[06:08:26] *** [Economy] Loaded 4 rows
+[06:08:26] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_House_Init"
+[06:08:26] 
+==========[House System Loaded]=========
+[06:08:26]  
+
+[06:08:26] ==========================================
+
+[06:08:26] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadAtm"
+[06:08:26] *** [MySQL] Successfully loading Automatic Teller Machine as much as 5 rows 
+[06:08:26] *** [Account Atm] Loaded 1 rows
+[06:08:26] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_LoadFarmerWheat"
+[06:08:26] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Plant"
+[06:08:26] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_ServerData"
+[06:08:26] *** [Server Data] sqlid: 11, name: def-modelid-trash-sweeper
+[06:08:26] *** [Server Data] sqlid: 12, name: cooldown-trash-sweeper
+[06:08:26] *** [Server Data] sqlid: 14, name: actor-diff
+[06:08:26] *** [Server Data] sqlid: 15, name: sweeper-update-time
+[06:08:26] *** [Server Data] sqlid: 17, name: def-modelid-trash-mower
+[06:08:26] *** [Server Data] sqlid: 18, name: cooldown-trash-mower
+[06:08:26] *** [Server Data] sqlid: 19, name: mower-salary-fail
+[06:08:26] *** [Server Data] sqlid: 20, name: mower-salary-per-trash
+[06:08:26] *** [Server Data] sqlid: 21, name: mower-update-time
+[06:08:26] *** [Server Data] Loading server data 9 rows.. 
+[06:08:26] [DEBUG] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[06:08:26] [DEBUG] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[06:08:26] [DEBUG] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[06:08:26] [DEBUG] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[06:08:26] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Trash"
+[06:08:26] [DEBUG] *** [Trash] Loaded 7 rows
+[06:08:26] *** [UtilsScripts] (Function) call function from name "ogmi_"  with name "ogmi_Vehicle_Server"
+[06:08:26] ***[MySQL] Loaded a 'vehicle_server' database as much as 2
+[06:08:26] [ Reliazed Gamemode Loaded ]
+[06:08:26] Number of vehicle models: 5
+[06:08:26] [DROPITEM] Loaded 1 Dropped items from database.
+[06:08:26] *** [Database: Loaded] dealership data (2 count).
+[06:08:26] *** [Actor] Loaded 3 Actor's
+[06:08:26] *** [House] 0 Houses were loaded.
+[06:08:26] [PPHooks] pp_public_min_index forced to 0 to evade SAMPGDK incompatibility
+[06:08:57] [connection] incoming connection: 111.94.75.73:46223 id: 0
+[06:08:58] [join] Yeonwo has joined the server (0:111.94.75.73)
+[06:08:58] *** [UtilsScripts] (timer) kill and refresh as many player timer 0
+[06:08:58] *** [Playef-Timer] Menjalankan timer k@EnergyUpdate(task id : 12)
+[06:08:58] *** [Playef-Timer] Menjalankan timer k@IsPlayerFarmer(task id : 13)
+[06:08:58] *** [Playef-Timer] Menjalankan timer k@OnlinePerSec(task id : 14)
+[06:08:58] *** [Playef-Timer] Menjalankan timer k@PlayerUpdate(task id : 15)
+[06:08:58] *** [Playef-Timer] Menjalankan timer k@SidejobGeneral(task id : 16)
+[06:09:05] [nick] Yeonwo nick changed to Steven_Yosua
+[06:09:05] [VEHICLE] Loaded 1 player vehicle from: Steven_Yosua(0)
+[06:09:22] [debug] Server received interrupt signal
+[06:09:22] [debug] Native backtrace:
+[06:09:22] [debug] #0 77473f1c in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[06:09:22] [debug] #1 75cd229f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[06:09:22] [debug] #2 75cd222f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[06:09:22] [debug] #3 0048d53c in ?? () in samp-server.exe
+[06:09:22] [debug] #4 0049b531 in ?? () in samp-server.exe
+[06:09:22] [debug] #5 0049b541 in ?? () in samp-server.exe
+[06:09:22] --- Server Shutting Down.
+[06:09:22] [ADM] Info: Unload EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[06:09:22] UPDATE `characters` SET `AccountATM` = '0' WHERE `pID` = 13;
+[06:09:22] UPDATE `characters` SET `InHouse` = '-1' WHERE `pID` = 13;
+[06:09:22] UPDATE `characters` SET `InBiz` = '-1' WHERE `pID` = 13;
+[06:09:22] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ActorExit"
+[06:09:22] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Economy"
+[06:09:22] *** Successfully saving EconomySave
+[06:09:22] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_House_Exit"
+[06:09:22] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Mower"
+[06:09:22] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Plant"
+[06:09:22] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SaveAtm"
+[06:09:22] UPDATE `account_atm` SET `money` = '0' WHERE `SQLID` = 1;
+[06:09:22] UPDATE `account_atm` SET `status` = '0' WHERE `SQLID` = 1;
+[06:09:22] UPDATE `account_atm` SET `username` = 'Zxuan' WHERE `SQLID` = 1;
+[06:09:22] UPDATE `account_atm` SET `password` = 'Pass12' WHERE `SQLID` = 1;
+[06:09:22] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_ServerData"
+[06:09:22] [DEBUG] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[06:09:22] [DEBUG] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[06:09:22] [DEBUG] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[06:09:22] [DEBUG] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[06:09:22] [DEBUG] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[06:09:22] [DEBUG] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[06:09:22] [DEBUG] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[06:09:22] [DEBUG] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[06:09:22] [DEBUG] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[06:09:22] [SETTING SERVER] Successfully saving setting server
+[06:09:22] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_SweeperExit"
+[06:09:22] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Trash"
+[06:09:22] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1346.000000, `PosY` = -2226.000000, `PosZ` = 15.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 24
+[06:09:22] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1349.000000, `PosY` = -2219.000000, `PosZ` = 12.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 25
+[06:09:22] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1353.000000, `PosY` = -2213.000000, `PosZ` = 12.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 26
+[06:09:22] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1353.000000, `PosY` = -2208.000000, `PosZ` = 12.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 27
+[06:09:22] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1349.000000, `PosY` = -2206.000000, `PosZ` = 12.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 28
+[06:09:22] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1347.000000, `PosY` = -2204.000000, `PosZ` = 12.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 29
+[06:09:22] UPDATE `trash` SET `Modelid` = 2672, `Cooldown` = 0, `Type` = 'sweeper', `PosX` = 1350.000000, `PosY` = -2199.000000, `PosZ` = 12.000000, `RotX` = 0.000000, `RotY`= 0.000000, `RotZ`= 0.000000 WHERE `ID` = 30
+[06:09:22] *** [UtilsScripts] (Function) call function from name "ogme_"  with name "ogme_Vehicle_Server"
+[06:09:22] *** [Vehicle Server] Save database.
+[06:09:22] [part] Steven_Yosua has left the server (0:0)
+[06:09:22] 
+
+[06:09:22]  ===============================
+
+[06:09:22]      sscanf plugin unloaded.    
+
+[06:09:22]  ===============================
+
+[06:09:22] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[06:09:22] plugin.mysql: Unloading plugin...
+[06:09:22] plugin.mysql: Plugin unloaded.
+[06:09:22] ========================
+[06:09:22] = Memory access plugin =
+[06:09:22] =       Made by BigETI =
+[06:09:22] = Unloaded!            =
+[06:09:22] ========================
+[06:09:22]  PawnPlus v1.5 unloaded

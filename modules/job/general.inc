@@ -1,3 +1,16 @@
+Sidejob_TextDraw(playerid, text[])
+{
+	PlayerData[playerid][pSidejobText] = CreatePlayerTextDraw(playerid, 40.000000, 305.000000, text);
+    PlayerTextDrawBackgroundColor(playerid, PlayerData[playerid][pSidejobText], 255);
+	PlayerTextDrawFont(playerid, PlayerData[playerid][pSidejobText], 1);
+	PlayerTextDrawLetterSize(playerid, PlayerData[playerid][pSidejobText], 0.240000, 1.100000);
+	PlayerTextDrawColor(playerid, PlayerData[playerid][pSidejobText], -1);
+	PlayerTextDrawSetOutline(playerid, PlayerData[playerid][pSidejobText], 1);
+	PlayerTextDrawSetProportional(playerid, PlayerData[playerid][pSidejobText], 1);
+	PlayerTextDrawSetSelectable(playerid, PlayerData[playerid][pSidejobText], 0);
+	PlayerTextDrawShow(playerid, PlayerData[playerid][pSidejobText]);
+}
+
 ptask SidejobGeneral[1000](playerid)
 {
     switch(PlayerData[playerid][pSidejob])
@@ -66,7 +79,7 @@ CMD:startjob(playerid, params[])
             await_arr(dialog) ShowPlayerAsyncDialog(playerid, DIALOG_STYLE_MSGBOX, "Start job mower", "Do you want to do a side job mower?\nClick \"yes\" If you want to do work, click \"no\" If you don't want to do work", "yes", "no");
             if(dialog[Response])
             {
-                Mower_ResetData(playerid);
+                Sidejob_TextDraw(playerid, "~b~~h~Mower Job~n~~n~~w~Grass: ~y~0");
                 
                 PlayerData[playerid][pSidejob] = SIDEJOB_MOWER;
                 PlayerData[playerid][MowerVehicle] = INVALID_VEHICLE_ID;
@@ -82,7 +95,7 @@ CMD:startjob(playerid, params[])
             await_arr(dialog) ShowPlayerAsyncDialog(playerid, DIALOG_STYLE_MSGBOX, "Start job sweeper", "Do you want to do a side job sweeper?\nClick \"yes\" If you want to do work, click \"no\" If you don't want to do work", "yes", "no");
             if(dialog[Response])
             {
-                Sweeper_TextDraw(playerid);
+                Sidejob_TextDraw(playerid, "~b~~h~Sweeper Job~n~~n~~w~Cleaned: ~y~0 Meters~n~~w~Trash: ~y~0");
                 PlayerData[playerid][pSidejob] = SIDEJOB_SWEEPER;
                 PlayerData[playerid][SweeperVehicle] = INVALID_VEHICLE_ID;
                 PlayerData[playerid][SweeperTrash] = 0;
@@ -91,6 +104,7 @@ CMD:startjob(playerid, params[])
 
                 SendCustomMessage(playerid, "SWEEPER", "anda memulai sidejob sweeper, silahkan naik kendaraan yang disedia.");
                 SendCustomMessage(playerid, "HINT", "silahkan "GREEN"bersihkan"WHITE" jalan yang ada "YELLOW"sampah"WHITE".");
+                SendCustomMessage(playerid, "HINT", "jika anda ingin mengambil salary anda, kembali lah ke aktor tersebut, lalu ketik \"/finishjob\"");
             }
             else return SendServerMessage(playerid, "anda membatalkan sidejob sweeper.");
         }

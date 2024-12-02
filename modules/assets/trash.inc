@@ -75,45 +75,45 @@ Function:Trash_Load()
 
 Function:Trash_Create(playerid, const type[])
 {
-    new id, string[300];
+    new id, string[512];
     if((id = Iter_Free(Trash)) != -1)
     {
         Iter_Add(Trash, id);
-        GetPlayerPos(playerid, Array3X(TrashData[id][TRASH_POS]));
-
+        GetPlayerPos(playerid, TrashData[id][TRASH_POS][0], TrashData[id][TRASH_POS][1], TrashData[id][TRASH_POS][2]);
+        TrashData[id][TRASH_POS][2] -= 0.7;
         strcat(TrashData[id][TRASH_TYPE], type);
         TrashData[id][TRASH_COOLDOWN] = 0;
         TrashData[id][TRASH_OBJECTID] = Data_GetInt(sprintf("def-modelid-trash-%s", type));
 
-        mysql_format(sqlcon, string, sizeof string, "INSERT INTO "SQL_TABLE_TRASH" SET `Type` ='%s'", type);
-        mysql_tquery(sqlcon, string, "OnInsertTrash", "i", id);
-        Trash_Sync(id);
-        PlayerData[playerid][pEditingMode] = EDIT_OBJECT_TRASH;
-        PlayerData[playerid][pEditTrash] = id;
-        EditDynamicObject(playerid, TrashData[id][TRASH_OBJECT]);
+        mysql_format(sqlcon, string, sizeof string, "INSERT INTO "SQL_TABLE_TRASH" SET `Type` = '%s', `PosX` = %f, `PosY`= %f, `PosZ` = %f", type, TrashData[id][TRASH_POS][0], TrashData[id][TRASH_POS][1], TrashData[id][TRASH_POS][2]);
+        mysql_tquery(sqlcon, string, "OnInsertTrash", "ii", playerid, id);
         return id;
     }
     return -1;
 }
 
-Function:OnInsertTrash(trashid)
+Function:OnInsertTrash(playerid, trashid)
 {
     TrashData[trashid][TRASH_SQLID] = cache_insert_id();
     WriteLog("trash.log", "[Trash Insert] membuat sqlid trash %i", cache_insert_id());
     Trash_Save(trashid);
+    Trash_Sync(trashid);
     return 1;
 }
 
 Function:Trash_Save(trashid)
 {
-    mysql_tquery(sqlcon, sprintf("UPDATE "SQL_TABLE_TRASH" SET `Modelid` = %i, `Cooldown` = %i, `Type` = '%s', `PosX` = %f, `PosY` = %f, `PosZ` = %f, `RotX` = %f, `RotY`= %f, `RotZ`= %f WHERE `ID` = %i",
+    new string[1080];
+    format(string, 1080, "UPDATE `trash` SET `Modelid` = %i, `Cooldown` = %i, `Type` = '%s', `PosX` = %f, `PosY` = %f, `PosZ` = %f, `RotX` = %f, `RotY`= %f, `RotZ`= %f WHERE `ID` = %i",
         TrashData[trashid][TRASH_OBJECTID],
         TrashData[trashid][TRASH_COOLDOWN],
         TrashData[trashid][TRASH_TYPE],
-        Array3X(TrashData[trashid][TRASH_POS]),
-        Array3X(TrashData[trashid][TRASH_ROT]),
+        TrashData[trashid][TRASH_POS][0], TrashData[trashid][TRASH_POS][1], TrashData[trashid][TRASH_POS][2],
+        TrashData[trashid][TRASH_ROT][0], TrashData[trashid][TRASH_ROT][1], TrashData[trashid][TRASH_ROT][2],
         TrashData[trashid][TRASH_SQLID]
-    ));
+    );
+    mysql_tquery(sqlcon, string);
+    printf(string);
     return 1;
 }
 

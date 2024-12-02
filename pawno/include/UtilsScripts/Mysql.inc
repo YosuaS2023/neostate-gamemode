@@ -59,8 +59,8 @@ cache_get_field_int(row, const field_name[])
 stock Float:cache_get_field_float(row, const field_name[])
 {
     new
-        str;
+        ret;
 
-    cache_get_value_name_int(row, field_name, str);
-    return float(str);
+    cache_get_value_name_float(row, field_name, ret;);
+    return ret;
 }

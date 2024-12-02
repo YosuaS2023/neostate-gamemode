@@ -14023,3 +14023,733 @@
 [1/12/2024 - 9:27:05] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
 [1/12/2024 - 9:27:05] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
 [1/12/2024 - 9:27:05] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 0:34:45] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[2/12/2024 - 0:34:45] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[2/12/2024 - 0:34:45] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[2/12/2024 - 0:34:45] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[2/12/2024 - 0:34:45] *** [Trash] Loaded 5 rows
+[2/12/2024 - 0:35:24] EditDynamicObject(response: 0, objectid: 6)
+[2/12/2024 - 0:35:27] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:35:28] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:35:28] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:35:28] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:35:28] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:35:29] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:35:29] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:35:29] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:35:31] EditDynamicObject(response: 1, objectid: 6)
+[2/12/2024 - 0:37:24] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:37:25] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:37:25] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:37:25] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:37:25] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:37:26] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:37:26] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:37:26] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:37:26] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:37:27] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:37:27] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:37:29] EditDynamicObject(response: 1, objectid: 6)
+[2/12/2024 - 0:41:12] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:41:12] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:41:12] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:41:12] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:41:13] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:41:13] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:41:13] EditDynamicObject(response: 2, objectid: 6)
+[2/12/2024 - 0:41:14] EditDynamicObject(response: 0, objectid: 6)
+[2/12/2024 - 0:41:19] EditDynamicObject(response: 0, objectid: 7)
+[2/12/2024 - 0:41:22] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 0:41:22] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 0:41:22] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 0:41:22] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 0:41:23] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 0:41:23] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 0:41:23] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 0:41:23] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 0:41:24] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 0:41:24] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 0:41:26] EditDynamicObject(response: 1, objectid: 7)
+[2/12/2024 - 0:41:29] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:29] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:29] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:30] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:30] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:30] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:31] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:31] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:31] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:31] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:32] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:32] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:32] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:32] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:33] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:33] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:33] EditDynamicObject(response: 2, objectid: 8)
+[2/12/2024 - 0:41:35] EditDynamicObject(response: 1, objectid: 8)
+[2/12/2024 - 0:42:49] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[2/12/2024 - 0:42:49] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[2/12/2024 - 0:42:49] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[2/12/2024 - 0:42:49] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 0:42:49] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[2/12/2024 - 0:42:49] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[2/12/2024 - 0:42:49] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 0:42:49] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 0:42:49] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 0:44:59] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[2/12/2024 - 0:44:59] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[2/12/2024 - 0:44:59] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[2/12/2024 - 0:44:59] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[2/12/2024 - 0:44:59] *** [Trash] Loaded 5 rows
+[2/12/2024 - 0:45:37] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[2/12/2024 - 0:45:42] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 0:45:43] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 0:45:44] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 0:45:46] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 0:45:46] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 0:45:47] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 0:45:48] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 0:45:48] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 0:45:51] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 0:45:52] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 0:45:52] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 0:45:55] EditDynamicObject(response: 1, objectid: 12)
+[2/12/2024 - 0:46:01] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[2/12/2024 - 0:46:02] EditDynamicObject(response: 2, objectid: 13)
+[2/12/2024 - 0:46:02] EditDynamicObject(response: 2, objectid: 13)
+[2/12/2024 - 0:46:03] EditDynamicObject(response: 2, objectid: 13)
+[2/12/2024 - 0:46:03] EditDynamicObject(response: 2, objectid: 13)
+[2/12/2024 - 0:46:03] EditDynamicObject(response: 2, objectid: 13)
+[2/12/2024 - 0:46:03] EditDynamicObject(response: 2, objectid: 13)
+[2/12/2024 - 0:46:04] EditDynamicObject(response: 2, objectid: 13)
+[2/12/2024 - 0:46:04] EditDynamicObject(response: 2, objectid: 13)
+[2/12/2024 - 0:46:04] EditDynamicObject(response: 2, objectid: 13)
+[2/12/2024 - 0:46:05] EditDynamicObject(response: 1, objectid: 13)
+[2/12/2024 - 0:46:16] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[2/12/2024 - 0:46:16] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[2/12/2024 - 0:46:16] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[2/12/2024 - 0:46:16] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 0:46:16] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[2/12/2024 - 0:46:16] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[2/12/2024 - 0:46:16] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 0:46:16] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 0:46:16] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 0:46:21] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[2/12/2024 - 0:46:21] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[2/12/2024 - 0:46:21] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[2/12/2024 - 0:46:21] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[2/12/2024 - 0:46:21] *** [Trash] Loaded 7 rows
+[2/12/2024 - 0:48:36] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 0:48:37] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 0:48:40] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 0:48:41] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 0:48:41] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 0:48:41] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 0:48:42] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 0:48:42] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 0:48:42] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 0:48:43] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 0:48:43] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 0:48:45] EditDynamicObject(response: 1, objectid: 11)
+[2/12/2024 - 5:42:30] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[2/12/2024 - 5:42:30] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[2/12/2024 - 5:42:30] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[2/12/2024 - 5:42:30] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 5:42:30] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[2/12/2024 - 5:42:30] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[2/12/2024 - 5:42:30] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 5:42:30] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 5:42:30] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 5:43:21] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[2/12/2024 - 5:43:21] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[2/12/2024 - 5:43:21] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[2/12/2024 - 5:43:21] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[2/12/2024 - 5:43:21] *** [Trash] Loaded 7 rows
+[2/12/2024 - 5:44:02] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 5:44:02] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 5:44:02] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 5:44:03] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 5:44:03] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 5:44:03] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 5:44:04] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 5:44:04] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 5:44:04] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 5:44:05] EditDynamicObject(response: 2, objectid: 11)
+[2/12/2024 - 5:44:05] EditDynamicObject(response: 1, objectid: 11)
+[2/12/2024 - 5:44:11] EditDynamicObject(response: 0, objectid: 11)
+[2/12/2024 - 5:44:14] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:44:14] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:44:15] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:44:15] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:44:15] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:44:15] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:44:16] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:44:16] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:44:16] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:44:16] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:44:17] EditDynamicObject(response: 1, objectid: 12)
+[2/12/2024 - 5:44:32] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[2/12/2024 - 5:44:34] EditDynamicObject(response: 2, objectid: 14)
+[2/12/2024 - 5:44:34] EditDynamicObject(response: 2, objectid: 14)
+[2/12/2024 - 5:44:35] EditDynamicObject(response: 2, objectid: 14)
+[2/12/2024 - 5:44:35] EditDynamicObject(response: 2, objectid: 14)
+[2/12/2024 - 5:44:35] EditDynamicObject(response: 2, objectid: 14)
+[2/12/2024 - 5:44:35] EditDynamicObject(response: 2, objectid: 14)
+[2/12/2024 - 5:44:36] EditDynamicObject(response: 2, objectid: 14)
+[2/12/2024 - 5:44:36] EditDynamicObject(response: 2, objectid: 14)
+[2/12/2024 - 5:44:36] EditDynamicObject(response: 2, objectid: 14)
+[2/12/2024 - 5:44:36] EditDynamicObject(response: 2, objectid: 14)
+[2/12/2024 - 5:44:37] EditDynamicObject(response: 2, objectid: 14)
+[2/12/2024 - 5:44:37] EditDynamicObject(response: 2, objectid: 14)
+[2/12/2024 - 5:44:38] EditDynamicObject(response: 1, objectid: 14)
+[2/12/2024 - 5:44:52] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[2/12/2024 - 5:44:52] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[2/12/2024 - 5:44:52] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[2/12/2024 - 5:44:52] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 5:44:52] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[2/12/2024 - 5:44:52] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[2/12/2024 - 5:44:52] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 5:44:52] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 5:44:52] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 5:44:57] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[2/12/2024 - 5:44:57] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[2/12/2024 - 5:44:57] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[2/12/2024 - 5:44:57] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[2/12/2024 - 5:44:57] *** [Trash] Loaded 8 rows
+[2/12/2024 - 5:45:50] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:45:50] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:45:50] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:45:50] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:45:51] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:45:51] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:45:51] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:45:52] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:45:52] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:45:53] EditDynamicObject(response: 1, objectid: 12)
+[2/12/2024 - 5:45:58] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:45:58] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:45:59] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:46:00] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:46:01] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:46:01] EditDynamicObject(response: 2, objectid: 12)
+[2/12/2024 - 5:46:02] EditDynamicObject(response: 1, objectid: 12)
+[2/12/2024 - 5:52:24] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[2/12/2024 - 5:52:24] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[2/12/2024 - 5:52:24] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[2/12/2024 - 5:52:24] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 5:52:24] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[2/12/2024 - 5:52:24] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[2/12/2024 - 5:52:24] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 5:52:24] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 5:52:24] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 5:53:00] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[2/12/2024 - 5:53:00] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[2/12/2024 - 5:53:00] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[2/12/2024 - 5:53:00] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[2/12/2024 - 5:53:00] *** [Trash] Loaded 8 rows
+[2/12/2024 - 5:53:37] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[2/12/2024 - 5:53:51] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[2/12/2024 - 5:54:01] EditDynamicObject(response: 0, objectid: 15)
+[2/12/2024 - 5:54:05] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:54:07] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:54:07] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:54:08] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:54:08] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:54:08] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:54:09] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:54:09] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:54:10] EditDynamicObject(response: 1, objectid: 15)
+[2/12/2024 - 5:54:36] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:36] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:37] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:37] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:38] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:39] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:40] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:40] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:41] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:41] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:42] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:42] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:43] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:44] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:44] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:45] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:45] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:46] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:46] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:46] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:46] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:47] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:47] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:47] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:48] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:48] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:48] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:48] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:49] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:49] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:49] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:49] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:49] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:49] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:49] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:49] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:50] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:50] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:50] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:50] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:50] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:50] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:50] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:50] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:50] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:51] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:51] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:51] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:51] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:51] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:51] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:52] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:52] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:52] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:52] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:52] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:52] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:52] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:53] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:53] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:53] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:53] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:54] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:54] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:54] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:54] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:54] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:54] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:54] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:54] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:54] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:54] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:55] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:55] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:55] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:55] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:55] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:55] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:55] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:55] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:55] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:56] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:56] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:56] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:56] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:56] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:56] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:56] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:56] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:56] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:57] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:57] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:57] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:57] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:57] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:57] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:58] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:58] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:58] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:58] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:58] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:58] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:58] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:58] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:59] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:59] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:59] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:59] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:59] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:54:59] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:54:59] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:00] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:00] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:00] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:00] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:00] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:01] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:01] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:01] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:01] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:01] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:02] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:02] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:02] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:02] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:02] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:02] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:02] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:02] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:03] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:03] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:03] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:03] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:03] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:03] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:03] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:03] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:04] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:04] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:04] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:04] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:04] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:04] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:04] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:04] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:05] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:05] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:05] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:05] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:06] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:06] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:06] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:06] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:06] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:06] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:06] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:06] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:06] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:07] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:07] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:07] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:07] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:07] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:07] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:07] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:07] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:07] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:07] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:07] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:07] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:08] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:08] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:08] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:08] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:08] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:08] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:08] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:08] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:08] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:09] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:09] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:09] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:09] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:09] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:09] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:09] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:09] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:09] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:09] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:10] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:10] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:10] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:10] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:11] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:11] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:11] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:11] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:11] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:11] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:11] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:12] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:12] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:12] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:12] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:12] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:12] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:13] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:13] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:13] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:55:13] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:15] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:55:22] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[2/12/2024 - 5:55:28] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[2/12/2024 - 5:55:50] EditDynamicObject(response: 2, objectid: 18)
+[2/12/2024 - 5:55:51] EditDynamicObject(response: 2, objectid: 18)
+[2/12/2024 - 5:55:51] EditDynamicObject(response: 2, objectid: 18)
+[2/12/2024 - 5:55:51] EditDynamicObject(response: 2, objectid: 18)
+[2/12/2024 - 5:55:51] EditDynamicObject(response: 2, objectid: 18)
+[2/12/2024 - 5:55:52] EditDynamicObject(response: 2, objectid: 18)
+[2/12/2024 - 5:55:52] EditDynamicObject(response: 2, objectid: 18)
+[2/12/2024 - 5:55:52] EditDynamicObject(response: 2, objectid: 18)
+[2/12/2024 - 5:55:52] EditDynamicObject(response: 2, objectid: 18)
+[2/12/2024 - 5:55:53] EditDynamicObject(response: 2, objectid: 18)
+[2/12/2024 - 5:55:53] EditDynamicObject(response: 2, objectid: 18)
+[2/12/2024 - 5:55:54] EditDynamicObject(response: 1, objectid: 18)
+[2/12/2024 - 5:56:04] EditDynamicObject(response: 0, objectid: 17)
+[2/12/2024 - 5:56:07] EditDynamicObject(response: 0, objectid: 18)
+[2/12/2024 - 5:56:25] EditDynamicObject(response: 0, objectid: 11)
+[2/12/2024 - 5:56:29] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:30] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:30] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:30] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:31] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:31] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:31] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:32] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:32] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:32] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:33] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:33] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:33] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:33] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:33] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:33] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:33] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:34] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:34] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:34] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:34] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:34] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:34] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:34] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:35] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:35] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:35] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:36] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:36] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:36] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:36] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:36] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:37] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:37] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:37] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:37] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:38] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:38] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:38] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:38] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:39] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:39] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:39] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:39] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:39] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:39] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:40] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:40] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:40] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:40] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:40] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:40] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:40] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:41] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:41] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:41] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:41] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:41] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:42] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:42] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:42] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:43] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:43] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:43] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:43] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:43] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:44] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:44] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:44] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:45] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:45] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:45] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:45] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:45] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:45] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:45] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:46] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:46] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:46] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:46] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:46] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:46] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:47] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:47] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:47] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:47] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:48] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:48] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:48] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:48] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:49] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:49] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:49] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:50] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:50] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:50] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:51] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:51] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:51] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:51] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:52] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:52] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:52] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:53] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:53] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:53] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:54] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:54] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:54] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:55] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:55] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:55] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:56] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:56] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:56] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:56] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:57] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:57] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:57] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:58] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:58] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:58] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:58] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:58] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:59] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:59] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:56:59] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:56:59] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:57:00] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:57:00] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:57:00] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:57:00] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:57:00] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:57:00] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:57:01] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:57:01] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:57:01] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:57:01] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:57:01] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:57:02] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:57:02] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:57:02] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:57:02] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:57:02] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:57:03] Data_GetInt(setting[] = "sweeper-update-time") succes load variable : sweeper-update-time = 300
+[2/12/2024 - 5:57:04] Data_GetInt(setting[] = "cooldown-trash-sweeper") succes load variable : cooldown-trash-sweeper = 3
+[2/12/2024 - 5:57:06] EditDynamicObject(response: 2, objectid: 10)
+[2/12/2024 - 5:57:07] EditDynamicObject(response: 2, objectid: 10)
+[2/12/2024 - 5:57:07] EditDynamicObject(response: 2, objectid: 10)
+[2/12/2024 - 5:57:07] EditDynamicObject(response: 2, objectid: 10)
+[2/12/2024 - 5:57:08] EditDynamicObject(response: 2, objectid: 10)
+[2/12/2024 - 5:57:08] EditDynamicObject(response: 2, objectid: 10)
+[2/12/2024 - 5:57:08] EditDynamicObject(response: 2, objectid: 10)
+[2/12/2024 - 5:57:08] EditDynamicObject(response: 2, objectid: 10)
+[2/12/2024 - 5:57:09] EditDynamicObject(response: 2, objectid: 10)
+[2/12/2024 - 5:57:09] EditDynamicObject(response: 2, objectid: 10)
+[2/12/2024 - 5:57:09] EditDynamicObject(response: 2, objectid: 10)
+[2/12/2024 - 5:57:10] EditDynamicObject(response: 2, objectid: 10)
+[2/12/2024 - 5:57:11] EditDynamicObject(response: 1, objectid: 10)
+[2/12/2024 - 5:57:14] EditDynamicObject(response: 0, objectid: 15)
+[2/12/2024 - 5:57:23] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:23] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:24] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:24] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:24] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:24] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:25] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:25] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:25] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:26] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:26] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:26] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:27] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:27] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:27] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:28] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:28] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:28] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:28] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:29] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:29] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:29] EditDynamicObject(response: 2, objectid: 15)
+[2/12/2024 - 5:57:54] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[2/12/2024 - 5:57:54] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[2/12/2024 - 5:57:54] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[2/12/2024 - 5:57:54] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 5:57:54] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[2/12/2024 - 5:57:54] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[2/12/2024 - 5:57:54] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 5:57:54] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 5:57:54] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 5:57:56] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[2/12/2024 - 5:57:56] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[2/12/2024 - 5:57:56] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[2/12/2024 - 5:57:56] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[2/12/2024 - 5:57:56] *** [Trash] Loaded 12 rows
+[2/12/2024 - 5:58:42] EditDynamicObject(response: 2, objectid: 16)
+[2/12/2024 - 5:58:42] EditDynamicObject(response: 2, objectid: 16)
+[2/12/2024 - 5:58:42] EditDynamicObject(response: 2, objectid: 16)
+[2/12/2024 - 5:58:42] EditDynamicObject(response: 2, objectid: 16)
+[2/12/2024 - 5:58:43] EditDynamicObject(response: 2, objectid: 16)
+[2/12/2024 - 5:58:43] EditDynamicObject(response: 2, objectid: 16)
+[2/12/2024 - 5:58:44] EditDynamicObject(response: 1, objectid: 16)
+[2/12/2024 - 6:06:03] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[2/12/2024 - 6:06:03] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[2/12/2024 - 6:06:03] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[2/12/2024 - 6:06:03] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 6:06:03] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[2/12/2024 - 6:06:03] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[2/12/2024 - 6:06:03] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 6:06:03] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 6:06:03] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 6:06:08] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[2/12/2024 - 6:06:08] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[2/12/2024 - 6:06:08] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[2/12/2024 - 6:06:08] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[2/12/2024 - 6:06:08] *** [Trash] Loaded 0 rows
+[2/12/2024 - 6:06:54] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[2/12/2024 - 6:06:58] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[2/12/2024 - 6:07:01] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[2/12/2024 - 6:07:03] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[2/12/2024 - 6:07:05] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[2/12/2024 - 6:07:08] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[2/12/2024 - 6:07:12] Data_GetInt(setting[] = "def-modelid-trash-sweeper") succes load variable : def-modelid-trash-sweeper = 2672
+[2/12/2024 - 6:07:38] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:38] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:39] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:39] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:39] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:40] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:40] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:40] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:41] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:41] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:41] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:41] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:42] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:42] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:42] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:42] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:43] EditDynamicObject(response: 2, objectid: 7)
+[2/12/2024 - 6:07:45] EditDynamicObject(response: 1, objectid: 7)
+[2/12/2024 - 6:08:10] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[2/12/2024 - 6:08:10] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[2/12/2024 - 6:08:10] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[2/12/2024 - 6:08:10] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 6:08:10] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[2/12/2024 - 6:08:10] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[2/12/2024 - 6:08:10] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 6:08:10] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 6:08:10] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 6:08:26] *** [Server Lib] loaded "server_data_lib/0.ini" with name-lib: config-trash | iter-id: 0(id_file: 0)
+[2/12/2024 - 6:08:26] *** [Server Lib] loaded "server_data_lib/1.ini" with name-lib: sweeper | iter-id: 1(id_file: 1)
+[2/12/2024 - 6:08:26] *** [Server Lib] loaded "server_data_lib/2.ini" with name-lib: general | iter-id: 2(id_file: 2)
+[2/12/2024 - 6:08:26] *** [Server Lib] loaded "server_data_lib/3.ini" with name-lib: mower | iter-id: 3(id_file: 3)
+[2/12/2024 - 6:08:26] *** [Trash] Loaded 7 rows
+[2/12/2024 - 6:09:22] *** [Server Setting] Update data | SQLID: 11 | Name: def-modelid-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 267
+[2/12/2024 - 6:09:22] *** [Server Setting] Update data | SQLID: 12 | Name: cooldown-trash-sweeper | Library: config-trash | Float: 0.0 | String: none | Integer: 3
+[2/12/2024 - 6:09:22] *** [Server Setting] Update data | SQLID: 14 | Name: actor-diff | Library: general | Float: 176.0 | String: none | Integer: 0
+[2/12/2024 - 6:09:22] *** [Server Setting] Update data | SQLID: 15 | Name: sweeper-update-time | Library: sweeper | Float: 0.0 | String: none | Integer: 300
+[2/12/2024 - 6:09:22] *** [Server Setting] Update data | SQLID: 17 | Name: def-modelid-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 856
+[2/12/2024 - 6:09:22] *** [Server Setting] Update data | SQLID: 18 | Name: cooldown-trash-mower | Library: mower | Float: 0.0 | String: none | Integer: 5
+[2/12/2024 - 6:09:22] *** [Server Setting] Update data | SQLID: 19 | Name: mower-salary-fail | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 6:09:22] *** [Server Setting] Update data | SQLID: 20 | Name: mower-salary-per-trash | Library: mower | Float: 0.0 | String: none | Integer: 0
+[2/12/2024 - 6:09:22] *** [Server Setting] Update data | SQLID: 21 | Name: mower-update-time | Library: mower | Float: 0.0 | String: none | Integer: 300

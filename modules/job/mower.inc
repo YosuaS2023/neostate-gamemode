@@ -11,21 +11,8 @@ stock Mower_ResetData(playerid, bool:removeTD = false)
 
 	PlayerData[playerid][pSidejob] = SIDEJOB_NONE;
 	PlayerData[playerid][pSidejobTime] = -1;
-	if(removeTD) PlayerTextDrawDestroy(playerid, PlayerData[playerid][MowerText]);
+	if(removeTD) PlayerTextDrawDestroy(playerid, PlayerData[playerid][pSidejobText]);
 	return 1;
-}
-
-Function:Mower_TextDraw(playerid)
-{
-	PlayerData[playerid][MowerText] = CreatePlayerTextDraw(playerid, 40.000000, 305.000000, "~b~~h~Mower Job~n~~n~~w~Grass: ~y~0");
-    PlayerTextDrawBackgroundColor(playerid, PlayerData[playerid][MowerText], 255);
-	PlayerTextDrawFont(playerid, PlayerData[playerid][MowerText], 1);
-	PlayerTextDrawLetterSize(playerid, PlayerData[playerid][MowerText], 0.240000, 1.100000);
-	PlayerTextDrawColor(playerid, PlayerData[playerid][MowerText], -1);
-	PlayerTextDrawSetOutline(playerid, PlayerData[playerid][MowerText], 1);
-	PlayerTextDrawSetProportional(playerid, PlayerData[playerid][MowerText], 1);
-	PlayerTextDrawSetSelectable(playerid, PlayerData[playerid][MowerText], 0);
-	PlayerTextDrawShow(playerid, PlayerData[playerid][MowerText]);
 }
 
 Function: Mower_ClearTrash(playerid)
@@ -73,7 +60,7 @@ hook OnPlayerUpdate(playerid)
 		Mower_ClearTrash(playerid);
 		new string[120];
 		format(string, sizeof(string), "~b~~h~Mower Job~n~~n~~w~Grass: ~y~%d", PlayerData[playerid][MowerGrass]);
-		PlayerTextDrawSetString(playerid, PlayerData[playerid][MowerText], string);
+		PlayerTextDrawSetString(playerid, PlayerData[playerid][pSidejobText], string);
 	}
 	return 0;
 }

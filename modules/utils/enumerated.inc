@@ -231,6 +231,7 @@ enum e_player_data
 	*/
 	pSidejob, // core 
 	pSidejobTime,
+	PlayerText:pSidejobText,
 	MowerVehicle,
 	SweeperVehicle,
 	/*
@@ -240,13 +241,11 @@ enum e_player_data
 	SweeperTrash,
 	SweeperDistance,
 	Float:SweeperLastPos[3],
-	PlayerText:SweeperText,
 	/*
 		mower
 	*/
 	MowerUpdate,
 	MowerGrass,
-	PlayerText:MowerText
 };
 
 new PlayerData[MAX_PLAYERS][e_player_data];

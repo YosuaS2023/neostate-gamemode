@@ -13,21 +13,8 @@ stock ResetSweeperInfo(playerid, bool: removeTD = false)
 	PlayerData[playerid][SweeperVehicle] = INVALID_VEHICLE_ID;
 	PlayerData[playerid][pSidejob] = SIDEJOB_NONE;
 	PlayerData[playerid][pSidejobTime] = -1;
-	if(removeTD) PlayerTextDrawDestroy(playerid, PlayerData[playerid][SweeperText]);
+	if(removeTD) PlayerTextDrawDestroy(playerid, PlayerData[playerid][pSidejobText]);
 	return 1;
-}
-
-Function:Sweeper_TextDraw(playerid)
-{
-	PlayerData[playerid][SweeperText] = CreatePlayerTextDraw(playerid, 40.000000, 305.000000, "~b~~h~Sweeper Job~n~~n~~w~Cleaned: ~y~0 Meters");
-    PlayerTextDrawBackgroundColor(playerid, PlayerData[playerid][SweeperText], 255);
-	PlayerTextDrawFont(playerid, PlayerData[playerid][SweeperText], 1);
-	PlayerTextDrawLetterSize(playerid, PlayerData[playerid][SweeperText], 0.240000, 1.100000);
-	PlayerTextDrawColor(playerid, PlayerData[playerid][SweeperText], -1);
-	PlayerTextDrawSetOutline(playerid, PlayerData[playerid][SweeperText], 1);
-	PlayerTextDrawSetProportional(playerid, PlayerData[playerid][SweeperText], 1);
-	PlayerTextDrawSetSelectable(playerid, PlayerData[playerid][SweeperText], 0);
-	PlayerTextDrawShow(playerid, PlayerData[playerid][SweeperText]);
 }
 
 Function: Sweeper_ClearTrash(playerid)
@@ -79,7 +66,7 @@ hook OnPlayerUpdate(playerid)
 		Sweeper_ClearTrash(playerid);
 		new string[120];
 		format(string, sizeof(string), "~b~~h~Sweeper Job~n~~n~~w~Cleaned: ~y~%d Meters~n~~w~Trash: ~y~%d", PlayerData[playerid][SweeperDistance], PlayerData[playerid][SweeperTrash]);
-		PlayerTextDrawSetString(playerid, PlayerData[playerid][SweeperText], string);
+		PlayerTextDrawSetString(playerid, PlayerData[playerid][pSidejobText], string);
 	}
 	return 0;
 }
