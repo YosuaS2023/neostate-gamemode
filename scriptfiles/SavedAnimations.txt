@@ -1,0 +1,2 @@
+ApplyAnimation(playerid, "AIRPORT", "THRW_BARL_THRW", 4.0, 1, 0, 0, 0, 0); // bersihkan jendela
+ApplyAnimation(playerid, "CHAINSAW", "CSAW_G", 4.0, 1, 0, 0, 0, 0); // bersihkan pakai sapu #1

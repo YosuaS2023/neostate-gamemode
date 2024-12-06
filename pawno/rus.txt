@@ -1,0 +1,13 @@
+../modules/server/setting.inc(204) : îøèáêà 040: ïîâòîðÿþùèåñÿ ìåòêè "case" (çíà÷åíèå 1486030033)
+../modules/server/setting.inc(237) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ServerDat"
+../modules/server/setting.inc(237) : ïðåäóïðåæäåíèå 215: âûðàæåíèå íå èìååò ýôôåêòà
+../modules/server/setting.inc(237) : îøèáêà 001: îæèäàëñÿ òîêåí ";", íî íàéäåí "]"
+../modules/server/setting.inc(237) : îøèáêà 029: íåïðàâèëüíîå âûðàæåíèå, ïðèíÿò íîëü
+../modules/server/setting.inc(237) : ôàòàëüíàÿ îøèáêà 107: ñëèøêîì ìíîãî îøèáîê íà îäíîé ñòðîêå
+
+Êîìïèëÿöèÿ îñòàíîâëåíà.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2017, ITB CompuPhase
+
+
+Îøèáîê:5.
